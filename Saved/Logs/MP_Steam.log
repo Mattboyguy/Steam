@@ -1,0 +1,553 @@
+﻿Log file open, 08/24/16 12:58:28
+LogInit:Display: Running engine for game: MP_Steam
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(14825034) SRandInit(14825035).
+LogTaskGraph: Started task graph with 4 named threads and 5 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.155043
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: C:/Games/Unreal Engine/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogOnline:Display: STEAM: Loading Steam SDK 1.32
+LogOnline:Warning: STEAM: Steam API disabled!
+LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogVoice:Warning: Failed to initialize voice interface
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.08.24-19.58.29:433][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.24-19.58.29:433][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.08.24-19.58.29:527][  0]LogInit: Computer: MATTHEW
+[2016.08.24-19.58.29:527][  0]LogInit: User: MatthewClaflin
+[2016.08.24-19.58.29:527][  0]LogInit: CPU Page size=65536, Cores=2
+[2016.08.24-19.58.29:527][  0]LogInit: High frequency timer resolution =2.435774 MHz
+[2016.08.24-19.58.29:527][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.08.24-19.58.29:527][  0]LogMemory: Platform Memory Stats for Windows
+[2016.08.24-19.58.29:527][  0]LogMemory: Process Physical Memory: 191.40 MB used, 191.40 MB peak
+[2016.08.24-19.58.29:527][  0]LogMemory: Process Virtual Memory: 195.20 MB used, 195.20 MB peak
+[2016.08.24-19.58.29:527][  0]LogMemory: Physical Memory: 4988.27 MB used, 8116.09 MB total
+[2016.08.24-19.58.29:527][  0]LogMemory: Virtual Memory: 556.06 MB used, 134217728.00 MB total
+[2016.08.24-19.58.30:716][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.08.24-19.58.31:222][  0]LogD3D11RHI: D3D11 adapters:
+[2016.08.24-19.58.31:593][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 770M ' (Feature Level 11_0)
+[2016.08.24-19.58.31:593][  0]LogD3D11RHI:       3007/0/4058 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.08.24-19.58.31:599][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2016.08.24-19.58.31:599][  0]LogD3D11RHI:       112/0/4058 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2016.08.24-19.58.31:600][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.08.24-19.58.31:600][  0]LogD3D11RHI:       0/0/4058 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.08.24-19.58.31:600][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.08.24-19.58.31:623][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.08.24-19.58.31:623][  0]LogD3D11RHI:     GPU DeviceId: 0x11e0 (for the marketing name, search the web for "GPU Device Id")
+[2016.08.24-19.58.31:624][  0]LogWindows: EnumDisplayDevices:
+[2016.08.24-19.58.31:624][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2016.08.24-19.58.31:624][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2016.08.24-19.58.31:624][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2016.08.24-19.58.31:624][  0]LogWindows:    3. 'NVIDIA GeForce GTX 770M ' (P:0 D:0)
+[2016.08.24-19.58.31:624][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2016.08.24-19.58.31:624][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 770M 
+[2016.08.24-19.58.31:624][  0]LogD3D11RHI:   Driver Version: 365.10 (internal:10.18.13.6510, unified:365.10)
+[2016.08.24-19.58.31:624][  0]LogD3D11RHI:      Driver Date: 4-27-2016
+[2016.08.24-19.58.31:624][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.08.24-19.58.31:638][  0]LogD3D11RHI: Async texture creation enabled
+[2016.08.24-19.58.31:648][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.08.24-19.58.31:648][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Intermediate/Shaders/WorkingDirectory/102364/).
+[2016.08.24-19.58.31:648][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MATTHE~1/AppData/Local/Temp/UnrealShaderWorkingDir/60386696455C5259C66A23B55F42310C/'.
+[2016.08.24-19.58.31:649][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.08.24-19.58.40:067][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.08.24-19.58.40:076][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.08.24-19.58.40:085][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.08.24-19.58.40:096][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.08.24-19.58.40:105][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.08.24-19.58.40:116][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.08.24-19.58.40:130][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.08.24-19.58.40:139][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.08.24-19.58.40:146][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.08.24-19.58.40:154][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.08.24-19.58.40:162][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.08.24-19.58.40:190][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.08.24-19.58.40:190][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.08.24-19.58.40:191][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.08.24-19.58.40:284][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.08.24-19.58.40:292][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.08.24-19.58.40:312][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.08.24-19.58.40:333][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.08.24-19.58.40:372][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.08.24-19.58.40:372][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.24-19.58.41:832][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.08.24-19.58.42:743][  0]LogDerivedDataCache: Loaded boot cache 0.91s 48MB C:/Users/MatthewClaflin/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.08.24-19.58.42:743][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/MatthewClaflin/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.08.24-19.58.42:743][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.08.24-19.58.42:743][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.08.24-19.58.42:744][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.08.24-19.58.42:744][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.08.24-19.58.42:868][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.08.24-19.58.42:910][  0]LogDerivedDataCache: Using Local data cache path C:/Users/MatthewClaflin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.08.24-19.58.58:924][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.24-19.58.59:023][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.08.24-19.59.03:165][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.08.24-19.59.03:166][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.08.24-19.59.03:166][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.08.24-19.59.08:880][  0]LogAssetRegistry: FAssetRegistry took 0.0233 seconds to start up
+[2016.08.24-19.59.09:359][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.331162 seconds
+[2016.08.24-19.59.09:364][  0]LogUObjectArray: 28746 objects as part of root set at end of initial load.
+[2016.08.24-19.59.09:364][  0]LogUObjectAllocator: 6069104 out of 0 bytes used by permanent object pool.
+[2016.08.24-19.59.09:364][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.08.24-19.59.14:692][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.24-19.59.14:708][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.24-19.59.26:439][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.08.24-19.59.28:978][  0]SourceControl: Info Source control is disabled
+[2016.08.24-19.59.29:824][  0]SourceControl: Info Source control is disabled
+[2016.08.24-19.59.29:900][  0]SourceControl: Info Source control is disabled
+[2016.08.24-19.59.29:954][  0]SourceControl: Info Source control is disabled
+[2016.08.24-19.59.32:163][  0]LogEngine: Initializing Engine...
+[2016.08.24-19.59.32:728][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2016.08.24-19.59.32:736][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2016.08.24-19.59.34:164][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.08.24-19.59.34:459][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.24-19.59.35:297][  0]LogInit: FAudioDevice initialized.
+[2016.08.24-19.59.35:338][  0]LogDerivedDataCache: Saved boot cache 0.04s 48MB C:/Users/MatthewClaflin/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.08.24-19.59.35:348][  0]LogInit: Texture streaming: Enabled
+[2016.08.24-19.59.38:801][  0]LogInit: Transaction tracking system initialized
+[2016.08.24-19.59.43:175][  0]BlueprintLog: New page: Editor Load
+[2016.08.24-19.59.47:814][  0]LocalizationService: Info Localization service is disabled
+[2016.08.24-19.59.51:622][  0]LogConsoleResponse:Display: 
+[2016.08.24-19.59.58:057][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/' took 0.03s
+[2016.08.24-19.59.58:057][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.08.24-19.59.58:086][  0]LogCook:Display: Mobile HDR setting 1
+[2016.08.24-20.00.06:542][  0]SourceControl: Info Source control is disabled
+[2016.08.24-20.00.07:161][  0]Cmd: MAP LOAD FILE="../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.24-20.00.07:569][  0]LightingResults: New page: Lighting Build
+[2016.08.24-20.00.08:661][  0]MapCheck: New page: Map Check
+[2016.08.24-20.00.08:661][  0]LightingResults: New page: Lighting Build
+[2016.08.24-20.00.34:415][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.08.24-20.00.37:477][  0]LogEditorServer: Finished looking for orphan Actors (0.008 secs)
+[2016.08.24-20.00.37:643][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.24-20.00.37:767][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 124.509ms to complete.
+[2016.08.24-20.00.37:767][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 30.812
+[2016.08.24-20.00.52:161][  0]LogCollectionManager: Loaded 0 collections in 0.068023 seconds
+[2016.08.24-20.00.55:195][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Collections/' took 0.01s
+[2016.08.24-20.00.55:195][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/Developers/MatthewClaflin/Collections/' took 0.01s
+[2016.08.24-20.00.55:195][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/Collections/' took 0.01s
+[2016.08.24-20.00.55:195][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000010 seconds
+[2016.08.24-20.00.55:727][  0]LogContentBrowser: Native class hierarchy populated in 0.2919 seconds. Added 2069 classes and 380 folders.
+[2016.08.24-20.00.57:042][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.017 s
+[2016.08.24-20.00.57:056][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.013 s
+[2016.08.24-20.00.57:101][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0009 seconds. Added 12 classes and 0 folders.
+[2016.08.24-20.00.57:429][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.08.24-20.01.02:163][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2016.08.24-20.01.02:854][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2016.08.24-20.01.17:998][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.08.24-20.01.20:603][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.08.24-20.01.21:370][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0019 seconds. Added 1 classes and 2 folders.
+[2016.08.24-20.01.21:371][  0]LogLoad: Full Startup: 177.44 seconds (BP compile: 3.66 seconds)
+[2016.08.24-20.01.21:371][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.08.24-20.01.21:371][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.08.24-20.01.21:931][  0]LogOcInput: OculusInput pre-init called
+[2016.08.24-20.01.24:938][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.08.24-20.01.34:867][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2016.08.24-20.01.44:496][  8]LogAssetRegistry: Asset discovery search completed in 155.6391 seconds
+[2016.08.24-20.01.44:563][  8]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.08.24-20.01.44:637][  8]LogCollectionManager: Fixed up redirectors for 0 collections in 0.121629 seconds (updated 0 objects)
+[2016.08.24-20.05.21:581][413]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 111 classes and 0 folders.
+[2016.08.24-20.09.26:670][442]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.08.24-20.13.42:681][928]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.299
+[2016.08.24-20.13.42:696][928]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam] ([1] browsable assets)...
+[2016.08.24-20.13.42:697][928]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam]
+[2016.08.24-20.13.43:177][928]LogSavePackage: Save=287.65ms
+[2016.08.24-20.13.43:177][928]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/GI_MP_Steam_Auto1668C3BAB411DFDB7856A80A08012E40F.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam_Auto1.uasset'
+[2016.08.24-20.13.43:194][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam_Auto1.uasset
+[2016.08.24-20.13.43:194][928]LogFileHelpers: Auto-saving content packages took 0.501
+[2016.08.24-20.13.56:910][441]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_226 or K2Node_CallFunction /Game/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.GI_MP_Steam:Multiplayer.K2Node_CallFunction_226
+[2016.08.24-20.13.56:910][441]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_226.EdGraphPin_1004''
+[2016.08.24-20.13.56:911][441]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_226 or K2Node_CallFunction /Game/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.GI_MP_Steam:Multiplayer.K2Node_CallFunction_226
+[2016.08.24-20.13.56:911][441]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_226.EdGraphPin_1005''
+[2016.08.24-20.13.56:911][441]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_183 or K2Node_CallFunction /Game/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.GI_MP_Steam:Multiplayer.K2Node_CallFunction_183
+[2016.08.24-20.13.56:911][441]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_183.EdGraphPin_916''
+[2016.08.24-20.15.48:675][388]LogSavePackage: Save=84.20ms
+[2016.08.24-20.15.48:675][388]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/GI_MP_Steam9B5469FA4DDFE75E2812B5860AF94B20.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.uasset'
+[2016.08.24-20.15.48:681][388]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.uasset
+[2016.08.24-20.18.15:354][876]BlueprintLog: New page: Compile W_LoadingScreen
+[2016.08.24-20.18.15:855][876]BlueprintEditorCompileResults: Info [1191.92] Compile of W_LoadingScreen successful! [in 494 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_LoadingScreen.W_LoadingScreen)
+[2016.08.24-20.18.16:411][903]LogSavePackage: Save=38.46ms
+[2016.08.24-20.18.16:411][903]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_LoadingScreenDE9D75034157E37F0AF0AFA4858D3573.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_LoadingScreen.uasset'
+[2016.08.24-20.18.16:414][903]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_LoadingScreen.uasset
+[2016.08.24-20.20.20:409][480]BlueprintLog: New page: Compile W_LoadingScreen
+[2016.08.24-20.20.20:549][480]BlueprintEditorCompileResults: Info [1316.62] Compile of W_LoadingScreen successful! [in 139 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_LoadingScreen.W_LoadingScreen)
+[2016.08.24-20.20.21:109][509]LogSavePackage: Save=14.03ms
+[2016.08.24-20.20.21:109][509]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_LoadingScreen58B3E01D415CDCB11DBAB9849919E630.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_LoadingScreen.uasset'
+[2016.08.24-20.20.21:112][509]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_LoadingScreen.uasset
+[2016.08.24-20.20.33:539][737]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.08.24-20.21.16:399][619]LogEditorTransaction: Undo Delete current selection
+[2016.08.24-20.22.24:020][581]BlueprintLog: New page: Compile GI_MP_Steam
+[2016.08.24-20.22.24:385][581]BlueprintEditorCompileResults: Info [1440.46] Compile of GI_MP_Steam successful! [in 364 ms] (/Game/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.GI_MP_Steam)
+[2016.08.24-20.22.24:836][597]LogSavePackage: Save=83.57ms
+[2016.08.24-20.22.24:836][597]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/GI_MP_SteamC91B5BAA42D9335C09D21EBE49B97F86.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.uasset'
+[2016.08.24-20.22.24:839][597]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.uasset
+[2016.08.24-20.24.13:334][619]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.055
+[2016.08.24-20.24.13:337][619]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam] ([1] browsable assets)...
+[2016.08.24-20.24.13:337][619]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam]
+[2016.08.24-20.24.13:424][619]LogSavePackage: Save=83.14ms
+[2016.08.24-20.24.13:424][619]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/GI_MP_Steam_Auto27D9F33FA4534ADAD36BC58BDAB67CB66.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam_Auto2.uasset'
+[2016.08.24-20.24.13:440][619]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam_Auto2.uasset
+[2016.08.24-20.24.13:440][619]LogFileHelpers: Auto-saving content packages took 0.105
+[2016.08.24-20.31.01:528][141]BlueprintLog: New page: Compile GI_MP_Steam
+[2016.08.24-20.31.01:865][141]BlueprintEditorCompileResults: Info [1957.94] Compile of GI_MP_Steam successful! [in 336 ms] (/Game/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.GI_MP_Steam)
+[2016.08.24-20.31.02:405][162]LogSavePackage: Save=123.72ms
+[2016.08.24-20.31.02:405][162]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/GI_MP_SteamDCD1E40F43F2CD3C8EF70496CA5C5B01.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.uasset'
+[2016.08.24-20.31.02:409][162]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.uasset
+[2016.08.24-20.33.59:740][685]BlueprintLog: New page: Compile GI_MP_Steam
+[2016.08.24-20.34.00:054][685]BlueprintEditorCompileResults: Info [2136.13] Compile of GI_MP_Steam successful! [in 314 ms] (/Game/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.GI_MP_Steam)
+[2016.08.24-20.35.05:561][615]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.053
+[2016.08.24-20.35.05:565][615]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam] ([1] browsable assets)...
+[2016.08.24-20.35.05:565][615]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam]
+[2016.08.24-20.35.05:687][615]LogSavePackage: Save=116.66ms
+[2016.08.24-20.35.05:687][615]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/GI_MP_Steam_Auto3D6C3E1924EB129A88028DFB242D84935.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam_Auto3.uasset'
+[2016.08.24-20.35.05:699][615]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam_Auto3.uasset
+[2016.08.24-20.35.05:699][615]LogFileHelpers: Auto-saving content packages took 0.136
+[2016.08.24-20.35.08:371][774]BlueprintLog: New page: Compile GI_MP_Steam
+[2016.08.24-20.35.08:671][774]BlueprintEditorCompileResults: Info [2204.74] Compile of GI_MP_Steam successful! [in 300 ms] (/Game/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.GI_MP_Steam)
+[2016.08.24-20.35.09:157][794]LogSavePackage: Save=96.72ms
+[2016.08.24-20.35.09:157][794]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/GI_MP_Steam86B78B79413E8DB2C1C4409B47F55926.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.uasset'
+[2016.08.24-20.35.09:161][794]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.uasset
+[2016.08.24-20.37.24:369][904]BlueprintLog: New page: Compile GI_MP_Steam
+[2016.08.24-20.37.24:682][904]BlueprintEditorCompileResults: Info [2340.76] Compile of GI_MP_Steam successful! [in 313 ms] (/Game/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.GI_MP_Steam)
+[2016.08.24-20.37.25:188][922]LogSavePackage: Save=101.24ms
+[2016.08.24-20.37.25:188][922]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/GI_MP_SteamD1DBB172498619D45CAB14BBF2ECDC34.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.uasset'
+[2016.08.24-20.37.25:192][922]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.uasset
+[2016.08.24-20.38.00:088][304]BlueprintLog: New page: Compile GI_MP_Steam
+[2016.08.24-20.38.00:342][304]BlueprintEditorCompileResults: Info [2376.42] Compile of GI_MP_Steam successful! [in 254 ms] (/Game/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.GI_MP_Steam)
+[2016.08.24-20.38.01:047][324]LogSavePackage: Save=100.53ms
+[2016.08.24-20.38.01:047][324]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/GI_MP_Steam1955E19B405E420C00D801AF0C5FE2C1.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.uasset'
+[2016.08.24-20.38.01:051][324]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.uasset
+[2016.08.24-20.39.02:227][ 38]BlueprintLog: New page: Compile GI_MP_Steam
+[2016.08.24-20.39.02:594][ 38]BlueprintEditorCompileResults: Info [2438.67] Compile of GI_MP_Steam successful! [in 366 ms] (/Game/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.GI_MP_Steam)
+[2016.08.24-20.39.03:129][ 58]LogSavePackage: Save=135.77ms
+[2016.08.24-20.39.03:129][ 58]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/GI_MP_SteamEC7D99EF4A7048DEFAA607BF552082BB.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.uasset'
+[2016.08.24-20.39.03:134][ 58]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.uasset
+[2016.08.25-00.00.57:479][813]BlueprintLog: New page: Compile W_MPHUD
+[2016.08.25-00.00.57:615][813]BlueprintEditorCompileResults: Info [4553.69] Compile of W_MPHUD successful! [in 135 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD.W_MPHUD)
+[2016.08.25-00.00.58:072][834]LogSavePackage: Save=8.87ms
+[2016.08.25-00.00.58:072][834]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_MPHUD9F466FF84C096229DF22EEA20B2B56C3.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD.uasset'
+[2016.08.25-00.00.58:075][834]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD.uasset
+[2016.08.25-00.02.23:149][991]LogMetaData: Removing '/Game/ThirdPersonBP/Multiplayer/Blueprints/GS_MP.GS_MP:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPersonBP/Multiplayer/Blueprints/NewBlueprint.PackageMetaData'
+[2016.08.25-00.02.23:149][991]LogMetaData: Removing '/Game/ThirdPersonBP/Multiplayer/Blueprints/GS_MP.SKEL_GS_MP_C' ref from Metadata '/Game/ThirdPersonBP/Multiplayer/Blueprints/NewBlueprint.PackageMetaData'
+[2016.08.25-00.02.23:149][991]LogMetaData: Removing '/Game/ThirdPersonBP/Multiplayer/Blueprints/GS_MP.GS_MP_C' ref from Metadata '/Game/ThirdPersonBP/Multiplayer/Blueprints/NewBlueprint.PackageMetaData'
+[2016.08.25-00.02.23:149][991]LogMetaData: Removing '/Game/ThirdPersonBP/Multiplayer/Blueprints/GS_MP.GS_MP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ThirdPersonBP/Multiplayer/Blueprints/NewBlueprint.PackageMetaData'
+[2016.08.25-00.02.23:149][991]LogMetaData: Removing '/Game/ThirdPersonBP/Multiplayer/Blueprints/GS_MP.GS_MP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ThirdPersonBP/Multiplayer/Blueprints/NewBlueprint.PackageMetaData'
+[2016.08.25-00.02.23:240][991]LogSavePackage: Save=13.20ms
+[2016.08.25-00.02.23:240][991]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/GS_MPD0E856A244C7999C4BDFB48900E7E3A5.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GS_MP.uasset'
+[2016.08.25-00.02.23:244][991]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GS_MP.uasset
+[2016.08.25-00.02.58:382][701]LogRenderer: Reallocating scene render targets to support 1208x900 (Frame:11145).
+[2016.08.25-00.03.37:791][977]LogSavePackage: Save=69.55ms
+[2016.08.25-00.03.37:791][977]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/GS_PS620CDC89425BA0A0147D99AA2547977F.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GS_PS.uasset'
+[2016.08.25-00.03.37:796][977]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GS_PS.uasset
+[2016.08.25-00.03.37:818][977]LogSavePackage: Save=5.97ms
+[2016.08.25-00.03.37:818][977]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/NewBlueprint895ABA834BA99444786E589A1C71AAAD.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/NewBlueprint.uasset'
+[2016.08.25-00.03.37:821][977]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/NewBlueprint.uasset
+[2016.08.25-00.03.37:856][977]LogSavePackage: Save=14.11ms
+[2016.08.25-00.03.37:856][977]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_MPHUDB8CE0E0A49F8E0C926245291300D706D.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD.uasset'
+[2016.08.25-00.03.37:860][977]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD.uasset
+[2016.08.25-00.04.33:336][ 50]BlueprintLog: New page: Compile GS_PS
+[2016.08.25-00.04.33:696][ 50]BlueprintEditorCompileResults: Info [4769.77] Compile of GS_PS successful! [in 359 ms] (/Game/ThirdPersonBP/Multiplayer/Blueprints/GS_PS.GS_PS)
+[2016.08.25-00.04.34:131][ 71]LogSavePackage: Save=15.31ms
+[2016.08.25-00.04.34:131][ 71]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/GS_PS07EAD65D4F77AF204AC0B596132463E7.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GS_PS.uasset'
+[2016.08.25-00.04.34:137][ 71]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GS_PS.uasset
+[2016.08.25-00.07.59:490][373]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu:ToggleLAN_Text.K2Node_VariableGet_0 or K2Node_VariableGet /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:RefreshServerList.K2Node_VariableGet_0
+[2016.08.25-00.07.59:490][373]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu:ToggleLAN_Text.K2Node_VariableGet_0 or K2Node_VariableGet /Game/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD.W_MPHUD:EventGraph.K2Node_VariableGet_0
+[2016.08.25-00.07.59:490][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_0.EdGraphPin_49''
+[2016.08.25-00.08.32:906][281]BlueprintLog: New page: Compile W_MPHUD
+[2016.08.25-00.08.33:067][281]BlueprintEditorCompileResults: Info [5009.14] Compile of W_MPHUD successful! [in 160 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD.W_MPHUD)
+[2016.08.25-00.08.33:456][300]LogSavePackage: Save=29.04ms
+[2016.08.25-00.08.33:456][300]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_MPHUD09A1AFFD43E102A76AD0D2B2EF35AE30.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD.uasset'
+[2016.08.25-00.08.33:459][300]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD.uasset
+[2016.08.25-00.12.31:568][437]BlueprintLog: New page: Compile W_MPHUD
+[2016.08.25-00.12.31:585][437]LogBlueprint:Error: Compiler Error Spawn node  Create Widget  must have a class specified.
+[2016.08.25-00.12.31:811][437]LogBlueprint:Warning: Compiler Warning [5247.88] Compile of W_MPHUD failed. 1 Fatal Issue(s) 0 Warning(s) [in 242 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD.W_MPHUD)
+[2016.08.25-00.12.31:811][437]BlueprintEditorCompileResults:Error: Error Spawn node  Create Widget  must have a class specified.
+[2016.08.25-00.12.31:811][437]BlueprintEditorCompileResults:Warning: Warning [5247.88] Compile of W_MPHUD failed. 1 Fatal Issue(s) 0 Warning(s) [in 242 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD.W_MPHUD)
+[2016.08.25-00.12.32:301][457]LogSavePackage: Save=79.45ms
+[2016.08.25-00.12.32:301][457]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_MPHUDB167386848EDC8B65FF75A812DCE51EF.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD.uasset'
+[2016.08.25-00.12.32:304][457]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD.uasset
+[2016.08.25-00.12.55:726][264]LogMetaData: Removing '/Game/ThirdPersonBP/Multiplayer/Widgets/W_PlayerListRow.SKEL_W_PlayerListRow_C' ref from Metadata '/Game/ThirdPersonBP/Multiplayer/Widgets/NewWidgetBlueprint.PackageMetaData'
+[2016.08.25-00.12.55:726][264]LogMetaData: Removing '/Game/ThirdPersonBP/Multiplayer/Widgets/W_PlayerListRow.W_PlayerListRow_C' ref from Metadata '/Game/ThirdPersonBP/Multiplayer/Widgets/NewWidgetBlueprint.PackageMetaData'
+[2016.08.25-00.12.55:726][264]LogMetaData: Removing '/Game/ThirdPersonBP/Multiplayer/Widgets/W_PlayerListRow.W_PlayerListRow:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ThirdPersonBP/Multiplayer/Widgets/NewWidgetBlueprint.PackageMetaData'
+[2016.08.25-00.12.55:726][264]LogMetaData: Removing '/Game/ThirdPersonBP/Multiplayer/Widgets/W_PlayerListRow.W_PlayerListRow:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ThirdPersonBP/Multiplayer/Widgets/NewWidgetBlueprint.PackageMetaData'
+[2016.08.25-00.12.55:773][264]LogSavePackage: Save=8.41ms
+[2016.08.25-00.12.55:773][264]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_PlayerListRowD50474FA4A54343BC5FD0FA99B726DF3.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_PlayerListRow.uasset'
+[2016.08.25-00.12.55:776][264]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_PlayerListRow.uasset
+[2016.08.25-00.15.49:649][409]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.082
+[2016.08.25-00.15.49:658][409]LogSavePackage: Save=5.29ms
+[2016.08.25-00.15.49:659][409]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/NewWidgetBlueprint_Auto4CBC195E2480E103C7CEBA9A67031EB11.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Widgets/NewWidgetBlueprint_Auto4.uasset'
+[2016.08.25-00.15.49:669][409]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Widgets/NewWidgetBlueprint_Auto4.uasset
+[2016.08.25-00.15.49:670][409]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Multiplayer/Widgets/W_PlayerListRow] ([1] browsable assets)...
+[2016.08.25-00.15.49:670][409]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Multiplayer/Widgets/W_PlayerListRow]
+[2016.08.25-00.15.49:704][409]LogSavePackage: Save=20.42ms
+[2016.08.25-00.15.49:704][409]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_PlayerListRow_Auto4EC9518D64D4E4B9923B6ADA378511695.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Widgets/W_PlayerListRow_Auto4.uasset'
+[2016.08.25-00.15.49:705][409]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Widgets/W_PlayerListRow_Auto4.uasset
+[2016.08.25-00.15.49:705][409]LogFileHelpers: Auto-saving content packages took 0.054
+[2016.08.25-00.16.25:756][387]BlueprintLog: New page: Compile W_PlayerListRow
+[2016.08.25-00.16.25:961][387]BlueprintEditorCompileResults: Info [5482.03] Compile of W_PlayerListRow successful! [in 204 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_PlayerListRow.W_PlayerListRow)
+[2016.08.25-00.16.26:324][405]LogSavePackage: Save=13.88ms
+[2016.08.25-00.16.26:324][405]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_PlayerListRow1F1E8ACC47DC218D36DF07A00B2781A8.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_PlayerListRow.uasset'
+[2016.08.25-00.16.26:331][405]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_PlayerListRow.uasset
+[2016.08.25-00.16.50:483][896]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.08.25-00.16.54:667][144]BlueprintLog: New page: Compile W_MPHUD
+[2016.08.25-00.16.54:822][144]BlueprintEditorCompileResults: Info [5510.90] Compile of W_MPHUD successful! [in 155 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD.W_MPHUD)
+[2016.08.25-00.16.55:606][187]LogSavePackage: Save=27.12ms
+[2016.08.25-00.16.55:606][187]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_MPHUDA1F46CF94ECD4437D6B2758F7AEE5C80.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD.uasset'
+[2016.08.25-00.16.55:625][187]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD.uasset
+[2016.08.25-00.22.41:478][782]BlueprintLog: New page: Compile W_MPHUD
+[2016.08.25-00.22.41:645][782]BlueprintEditorCompileResults: Info [5857.72] Compile of W_MPHUD successful! [in 166 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD.W_MPHUD)
+[2016.08.25-00.22.42:104][803]LogSavePackage: Save=51.85ms
+[2016.08.25-00.22.42:104][803]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_MPHUD0AD9847342EBD5CFF3B84BADC18727A7.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD.uasset'
+[2016.08.25-00.22.42:107][803]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD.uasset
+[2016.08.25-00.26.10:606][290]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.066
+[2016.08.25-00.26.10:608][290]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD] ([1] browsable assets)...
+[2016.08.25-00.26.10:608][290]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD]
+[2016.08.25-00.26.10:667][290]LogSavePackage: Save=52.41ms
+[2016.08.25-00.26.10:667][290]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_MPHUD_Auto5D297DA6B4EEAFF6D3009DF91BA2A390F.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD_Auto5.uasset'
+[2016.08.25-00.26.10:668][290]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD_Auto5.uasset
+[2016.08.25-00.26.10:669][290]LogFileHelpers: Auto-saving content packages took 0.062
+[2016.08.25-00.27.23:836][302]BlueprintLog: New page: Compile W_MPHUD
+[2016.08.25-00.27.24:049][302]BlueprintEditorCompileResults: Info [6140.12] Compile of W_MPHUD successful! [in 213 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD.W_MPHUD)
+[2016.08.25-00.27.24:522][324]LogSavePackage: Save=54.74ms
+[2016.08.25-00.27.24:522][324]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_MPHUDD824788846F678DE12E8AFB1FCCA338D.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD.uasset'
+[2016.08.25-00.27.24:527][324]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD.uasset
+[2016.08.25-00.31.10:229][781]BlueprintLog: New page: Compile W_MPHUD
+[2016.08.25-00.31.10:411][781]BlueprintEditorCompileResults: Info [6366.48] Compile of W_MPHUD successful! [in 182 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD.W_MPHUD)
+[2016.08.25-00.31.10:990][809]LogSavePackage: Save=56.74ms
+[2016.08.25-00.31.10:990][809]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_MPHUDCE09C49E437E3B2862FF95B68DE8288D.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD.uasset'
+[2016.08.25-00.31.10:993][809]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD.uasset
+[2016.08.25-00.32.11:458][980]BlueprintLog: New page: Compile W_MPHUD
+[2016.08.25-00.32.11:659][980]BlueprintEditorCompileResults: Info [6427.73] Compile of W_MPHUD successful! [in 200 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD.W_MPHUD)
+[2016.08.25-00.32.12:144][  3]LogSavePackage: Save=52.52ms
+[2016.08.25-00.32.12:145][  3]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_MPHUD5CDD890D4219AF197248D39FEA2216E6.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD.uasset'
+[2016.08.25-00.32.12:149][  3]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD.uasset
+[2016.08.25-00.34.45:611][228]BlueprintLog: New page: Compile W_MPHUD
+[2016.08.25-00.34.45:803][228]BlueprintEditorCompileResults: Info [6581.88] Compile of W_MPHUD successful! [in 192 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD.W_MPHUD)
+[2016.08.25-00.34.46:294][252]LogSavePackage: Save=50.68ms
+[2016.08.25-00.34.46:294][252]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_MPHUD08C5710142649EA3112E03B4E5997CCD.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD.uasset'
+[2016.08.25-00.34.46:298][252]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD.uasset
+[2016.08.25-00.34.48:621][362]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.08.25-00.34.51:252][470]LogAIModule: Creating AISystem for world MP_MainMenu
+[2016.08.25-00.34.52:941][470]LogSavePackage: Save=5.50ms
+[2016.08.25-00.34.52:941][470]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/NewWidgetBlueprint9E0C32E146B15E1EE45113B9C7771CD4.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/NewWidgetBlueprint.uasset'
+[2016.08.25-00.34.52:944][470]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/NewWidgetBlueprint.uasset
+[2016.08.25-00.34.53:071][470]Cmd: MAP LOAD FILE="../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Maps/MP_MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.25-00.34.53:071][470]LightingResults: New page: Lighting Build
+[2016.08.25-00.34.53:096][470]LoadErrors: New page: Loading map: MP_MainMenu.umap
+[2016.08.25-00.34.53:159][470]MapCheck: New page: Map Check
+[2016.08.25-00.34.53:159][470]LightingResults: New page: Lighting Build
+[2016.08.25-00.34.53:594][470]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.25-00.34.53:657][470]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.25-00.34.53:734][470]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 76.27ms to complete.
+[2016.08.25-00.34.53:734][470]LogFileHelpers: Loading map 'MP_MainMenu' took 0.790
+[2016.08.25-01.23.27:666][908]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: Edit {GameModeName}".
+[2016.08.25-01.24.37:886][141]BlueprintLog: New page: Compile MP_MainMenu
+[2016.08.25-01.24.38:051][141]BlueprintEditorCompileResults: Info [9574.12] Compile of PersistentLevel.MP_MainMenu successful! [in 164 ms] (/Game/ThirdPersonBP/Multiplayer/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel.MP_MainMenu)
+[2016.08.25-01.24.51:280][554]LogSavePackage: Save=99.49ms
+[2016.08.25-01.24.51:280][554]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/MP_MainMenu5E826CCA4A5C5619C818B4A2487E3902.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Maps/MP_MainMenu.umap'
+[2016.08.25-01.24.51:284][554]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Maps/MP_MainMenu.umap
+[2016.08.25-01.24.51:331][554]LogFileHelpers: Saving map 'MP_MainMenu' took 0.306
+[2016.08.25-01.26.00:557][572]LogSavePackage: Save=14.90ms
+[2016.08.25-01.26.00:557][572]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/MP_Level1A5D230F841A698A84DA7F5A3362B3539.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Maps/MP_Level1.umap'
+[2016.08.25-01.26.00:588][572]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Maps/MP_Level1.umap
+[2016.08.25-01.26.00:588][572]LogFileHelpers: Saving map 'MP_Level1' took 0.177
+[2016.08.25-01.26.00:596][572]Cmd: MAP LOAD FILE="../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Maps/MP_Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.25-01.26.00:597][572]LightingResults: New page: Lighting Build
+[2016.08.25-01.26.00:598][572]LoadErrors: New page: Loading map: MP_Level1.umap
+[2016.08.25-01.26.00:599][572]MapCheck: New page: Map Check
+[2016.08.25-01.26.00:600][572]LightingResults: New page: Lighting Build
+[2016.08.25-01.26.00:751][572]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.25-01.26.00:751][572]LogAIModule: Creating AISystem for world MP_Level1
+[2016.08.25-01.26.00:788][572]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.25-01.26.00:847][572]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 58.939ms to complete.
+[2016.08.25-01.26.00:848][572]LogFileHelpers: Loading map 'MP_Level1' took 0.258
+[2016.08.25-01.26.12:092][741]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: Edit {GameModeName}".
+[2016.08.25-01.27.43:698][195]BlueprintLog: New page: Compile MP_Level1
+[2016.08.25-01.27.43:814][195]BlueprintEditorCompileResults: Info [9759.89] Compile of PersistentLevel.MP_Level1 successful! [in 115 ms] (/Game/ThirdPersonBP/Multiplayer/Maps/MP_Level1.MP_Level1:PersistentLevel.MP_Level1)
+[2016.08.25-01.27.48:457][403]LogSavePackage: Save=109.11ms
+[2016.08.25-01.27.48:457][403]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/MP_Level14FEAD0E940448BA5A52886AE552C69FB.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Maps/MP_Level1.umap'
+[2016.08.25-01.27.48:460][403]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Maps/MP_Level1.umap
+[2016.08.25-01.27.48:515][403]LogFileHelpers: Saving map 'MP_Level1' took 0.291
+[2016.08.25-01.29.24:553][465]LogActorFactory: Actor Factory created Floor_400x400
+[2016.08.25-01.29.25:507][518]LogActorFactory: Actor Factory created Floor_400x400
+[2016.08.25-01.30.06:306][341]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.08.25-01.30.31:331][ 83]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.08.25-01.31.29:779][737]LogMetaData: Removing '/Game/ThirdPersonBP/Multiplayer/Blueprints/GM_MP.GM_MP:EventGraph.K2Node_Event_3' ref from Metadata '/Game/ThirdPersonBP/Multiplayer/Blueprints/NewBlueprint.PackageMetaData'
+[2016.08.25-01.31.29:779][737]LogMetaData: Removing '/Game/ThirdPersonBP/Multiplayer/Blueprints/GM_MP.GM_MP:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ThirdPersonBP/Multiplayer/Blueprints/NewBlueprint.PackageMetaData'
+[2016.08.25-01.31.29:779][737]LogMetaData: Removing '/Game/ThirdPersonBP/Multiplayer/Blueprints/GM_MP.GM_MP_C' ref from Metadata '/Game/ThirdPersonBP/Multiplayer/Blueprints/NewBlueprint.PackageMetaData'
+[2016.08.25-01.31.29:779][737]LogMetaData: Removing '/Game/ThirdPersonBP/Multiplayer/Blueprints/GM_MP.SKEL_GM_MP_C' ref from Metadata '/Game/ThirdPersonBP/Multiplayer/Blueprints/NewBlueprint.PackageMetaData'
+[2016.08.25-01.31.29:779][737]LogMetaData: Removing '/Game/ThirdPersonBP/Multiplayer/Blueprints/GM_MP.GM_MP:UserConstructionScript.K2Node_FunctionEntry_1' ref from Metadata '/Game/ThirdPersonBP/Multiplayer/Blueprints/NewBlueprint.PackageMetaData'
+[2016.08.25-01.31.29:853][737]LogSavePackage: Save=13.68ms
+[2016.08.25-01.31.29:853][737]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/GM_MP504FDC554717CF0717EEA7ACF14483CC.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GM_MP.uasset'
+[2016.08.25-01.31.29:856][737]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GM_MP.uasset
+[2016.08.25-01.31.35:232][939]LogSavePackage: Save=189.37ms
+[2016.08.25-01.31.35:232][939]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/MP_Level1AFA2FDE74384C3A7D36B67B4A8B8146E.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Maps/MP_Level1.umap'
+[2016.08.25-01.31.35:235][939]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Maps/MP_Level1.umap
+[2016.08.25-01.31.35:269][939]LogFileHelpers: Saving map 'MP_Level1' took 0.340
+[2016.08.25-01.31.45:619][229]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.08.25-01.31.46:798][295]Cmd: UpdateLandscapeSetup
+[2016.08.25-01.33.21:873][276]LogSavePackage: Save=17.71ms
+[2016.08.25-01.33.21:873][276]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/GM_MP55CA0D3248624AEDAC09979B4BE11F6E.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GM_MP.uasset'
+[2016.08.25-01.33.21:881][276]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GM_MP.uasset
+[2016.08.25-01.33.21:909][276]LogSavePackage: Save=16.52ms
+[2016.08.25-01.33.21:909][276]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/PC_MPFC67A8A74E622C15AC41FB9B8570EFF5.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/PC_MP.uasset'
+[2016.08.25-01.33.21:914][276]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/PC_MP.uasset
+[2016.08.25-01.33.22:160][276]LogSavePackage: Save=113.78ms
+[2016.08.25-01.33.22:160][276]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/MP_Level1234E80F04CCF0925BD1BB8878437B197.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Maps/MP_Level1.umap'
+[2016.08.25-01.33.22:163][276]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Maps/MP_Level1.umap
+[2016.08.25-01.33.22:198][276]LogFileHelpers: Saving map 'MP_Level1' took 0.277
+[2016.08.25-01.35.16:525][440]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.08.25-01.35.20:507][677]BlueprintLog: New page: Compile PC_MP
+[2016.08.25-01.35.20:724][677]BlueprintEditorCompileResults: Info [0216.80] Compile of PC_MP successful! [in 217 ms] (/Game/ThirdPersonBP/Multiplayer/Blueprints/PC_MP.PC_MP)
+[2016.08.25-01.35.21:290][706]LogSavePackage: Save=21.09ms
+[2016.08.25-01.35.21:290][706]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/PC_MPDBCCC8FD4F25D92EC27623ADC7B491F9.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/PC_MP.uasset'
+[2016.08.25-01.35.21:293][706]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/PC_MP.uasset
+[2016.08.25-01.36.28:956][150]BlueprintLog: New page: Compile PC_MP
+[2016.08.25-01.36.29:166][150]BlueprintEditorCompileResults: Info [0285.24] Compile of PC_MP successful! [in 209 ms] (/Game/ThirdPersonBP/Multiplayer/Blueprints/PC_MP.PC_MP)
+[2016.08.25-01.36.29:734][181]LogSavePackage: Save=17.07ms
+[2016.08.25-01.36.29:734][181]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/PC_MPB661FCEE4366C4CDEE9077B3B3AF8C24.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/PC_MP.uasset'
+[2016.08.25-01.36.29:738][181]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/PC_MP.uasset
+[2016.08.25-01.39.37:597][952]BlueprintLog: New page: Compile PC_MP
+[2016.08.25-01.39.37:723][952]BlueprintEditorCompileResults: Info [0473.80] Compile of PC_MP successful! [in 125 ms] (/Game/ThirdPersonBP/Multiplayer/Blueprints/PC_MP.PC_MP)
+[2016.08.25-01.39.38:231][978]LogSavePackage: Save=32.35ms
+[2016.08.25-01.39.38:231][978]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/PC_MP9A678FE642902DAD4E98148D7D0D85EC.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/PC_MP.uasset'
+[2016.08.25-01.39.38:235][978]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/PC_MP.uasset
+[2016.08.25-01.39.50:985][715]LogMetaData: Removing '/Game/ThirdPersonBP/Multiplayer/Blueprints/PS_MP.PS_MP:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPersonBP/Multiplayer/Blueprints/GS_PS.PackageMetaData'
+[2016.08.25-01.39.50:985][715]LogMetaData: Removing '/Game/ThirdPersonBP/Multiplayer/Blueprints/PS_MP.SKEL_PS_MP_C' ref from Metadata '/Game/ThirdPersonBP/Multiplayer/Blueprints/GS_PS.PackageMetaData'
+[2016.08.25-01.39.50:985][715]LogMetaData: Removing '/Game/ThirdPersonBP/Multiplayer/Blueprints/PS_MP.PS_MP_C' ref from Metadata '/Game/ThirdPersonBP/Multiplayer/Blueprints/GS_PS.PackageMetaData'
+[2016.08.25-01.39.50:985][715]LogMetaData: Removing '/Game/ThirdPersonBP/Multiplayer/Blueprints/PS_MP.PS_MP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ThirdPersonBP/Multiplayer/Blueprints/GS_PS.PackageMetaData'
+[2016.08.25-01.39.50:985][715]LogMetaData: Removing '/Game/ThirdPersonBP/Multiplayer/Blueprints/PS_MP.PS_MP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ThirdPersonBP/Multiplayer/Blueprints/GS_PS.PackageMetaData'
+[2016.08.25-01.39.51:047][715]LogSavePackage: Save=12.36ms
+[2016.08.25-01.39.51:047][715]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/PS_MPAB6F6A9B41E24E72A1392E8EB8CAF6E2.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/PS_MP.uasset'
+[2016.08.25-01.39.51:050][715]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/PS_MP.uasset
+[2016.08.25-01.39.51:420][715]LogSavePackage: Save=76.67ms
+[2016.08.25-01.39.51:420][715]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_MPHUD9269FE3E443C2242E2DF6DBAE053FDF5.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD.uasset'
+[2016.08.25-01.39.51:422][715]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_MPHUD.uasset
+[2016.08.25-01.39.51:483][715]LogSavePackage: Save=44.58ms
+[2016.08.25-01.39.51:483][715]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/GM_MPB35BCDDD4F42C91BFF7A988F5F3528AC.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GM_MP.uasset'
+[2016.08.25-01.39.51:485][715]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GM_MP.uasset
+[2016.08.25-01.43.28:632][557]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Multiplayer/Maps/MP_Level1' took 0.063
+[2016.08.25-01.43.28:634][557]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Multiplayer/Blueprints/GM_MP] ([1] browsable assets)...
+[2016.08.25-01.43.28:634][557]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Multiplayer/Blueprints/GM_MP]
+[2016.08.25-01.43.28:661][557]LogSavePackage: Save=21.33ms
+[2016.08.25-01.43.28:661][557]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/GM_MP_Auto6D69DAF144D1E724639F3A9B3C6A6FD6B.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Blueprints/GM_MP_Auto6.uasset'
+[2016.08.25-01.43.28:663][557]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Blueprints/GM_MP_Auto6.uasset
+[2016.08.25-01.43.28:663][557]LogFileHelpers: Auto-saving content packages took 0.031
+[2016.08.25-01.49.24:195][376]BlueprintLog: New page: Compile GM_MP
+[2016.08.25-01.49.24:222][376]LogBlueprint:Error: Compiler Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.08.25-01.49.24:222][376]LogBlueprint:Error: Compiler Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.08.25-01.49.24:561][376]LogBlueprint:Warning: Compiler Warning [1060.63] Compile of GM_MP failed. 2 Fatal Issue(s) 0 Warning(s) [in 365 ms] (/Game/ThirdPersonBP/Multiplayer/Blueprints/GM_MP.GM_MP)
+[2016.08.25-01.49.24:561][376]BlueprintEditorCompileResults:Error: Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.08.25-01.49.24:561][376]BlueprintEditorCompileResults:Error: Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.08.25-01.49.24:561][376]BlueprintEditorCompileResults:Warning: Warning [1060.63] Compile of GM_MP failed. 2 Fatal Issue(s) 0 Warning(s) [in 365 ms] (/Game/ThirdPersonBP/Multiplayer/Blueprints/GM_MP.GM_MP)
+[2016.08.25-01.49.24:939][394]LogSavePackage: Save=27.90ms
+[2016.08.25-01.49.24:939][394]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/GM_MP87E3AE11420FB027FAA7E8B9D40F9402.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GM_MP.uasset'
+[2016.08.25-01.49.24:942][394]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GM_MP.uasset
+[2016.08.25-01.49.52:816][185]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.08.25-01.50.02:880][745]BlueprintLog: New page: Compile GM_MP
+[2016.08.25-01.50.02:893][745]LogBlueprint:Error: Compiler Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.08.25-01.50.03:116][745]LogBlueprint:Warning: Compiler Warning [1099.19] Compile of GM_MP failed. 1 Fatal Issue(s) 0 Warning(s) [in 235 ms] (/Game/ThirdPersonBP/Multiplayer/Blueprints/GM_MP.GM_MP)
+[2016.08.25-01.50.03:116][745]BlueprintEditorCompileResults:Error: Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.08.25-01.50.03:116][745]BlueprintEditorCompileResults:Warning: Warning [1099.19] Compile of GM_MP failed. 1 Fatal Issue(s) 0 Warning(s) [in 235 ms] (/Game/ThirdPersonBP/Multiplayer/Blueprints/GM_MP.GM_MP)
+[2016.08.25-01.50.14:969][455]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.08.25-01.50.19:721][736]BlueprintLog: New page: Compile GM_MP
+[2016.08.25-01.50.19:857][736]BlueprintEditorCompileResults: Info [1115.93] Compile of GM_MP successful! [in 135 ms] (/Game/ThirdPersonBP/Multiplayer/Blueprints/GM_MP.GM_MP)
+[2016.08.25-01.50.28:810][271]BlueprintLog: New page: Compile GM_MP
+[2016.08.25-01.50.28:946][271]BlueprintEditorCompileResults: Info [1125.02] Compile of GM_MP successful! [in 136 ms] (/Game/ThirdPersonBP/Multiplayer/Blueprints/GM_MP.GM_MP)
+[2016.08.25-01.50.29:626][307]LogSavePackage: Save=33.53ms
+[2016.08.25-01.50.29:627][307]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/GM_MP4A68B7FF418AB25E11D040AD54ED34FC.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GM_MP.uasset'
+[2016.08.25-01.50.29:630][307]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GM_MP.uasset
+[2016.08.25-01.52.34:681][546]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.08.25-01.54.21:373][962]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Multiplayer/Maps/MP_Level1' took 0.057
+[2016.08.25-01.54.21:376][962]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Multiplayer/Blueprints/GM_MP] ([1] browsable assets)...
+[2016.08.25-01.54.21:376][962]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Multiplayer/Blueprints/GM_MP]
+[2016.08.25-01.54.21:425][962]LogSavePackage: Save=42.42ms
+[2016.08.25-01.54.21:425][962]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/GM_MP_Auto78399B2864CE50848F7A2359FE8109CB5.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Blueprints/GM_MP_Auto7.uasset'
+[2016.08.25-01.54.21:427][962]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Blueprints/GM_MP_Auto7.uasset
+[2016.08.25-01.54.21:427][962]LogFileHelpers: Auto-saving content packages took 0.053
+[2016.08.25-02.00.54:280][122]BlueprintLog: New page: Compile GM_MP
+[2016.08.25-02.00.54:491][122]BlueprintEditorCompileResults: Info [1750.56] Compile of GM_MP successful! [in 210 ms] (/Game/ThirdPersonBP/Multiplayer/Blueprints/GM_MP.GM_MP)
+[2016.08.25-02.00.55:157][154]LogSavePackage: Save=48.12ms
+[2016.08.25-02.00.55:157][154]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/GM_MP32AEBD3E4B3AAE6EE49986B4D03E02B3.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GM_MP.uasset'
+[2016.08.25-02.00.55:214][154]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GM_MP.uasset
+[2016.08.25-02.02.11:022][569]LogSavePackage: Save=102.19ms
+[2016.08.25-02.02.11:022][569]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/UEDPCMP_Level1B1B5BDE34DE001E934B219844F97E439.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Maps/UEDPCMP_Level1.umap'
+[2016.08.25-02.02.11:024][569]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Maps/UEDPCMP_Level1.umap
+[2016.08.25-02.02.11:030][569]LogEditorTransaction: Undo Spawn Play From Here Start
+[2016.08.25-02.03.28:641][494]LogAIModule: Creating AISystem for world MP_MainMenu
+[2016.08.25-02.03.28:694][494]Cmd: MAP LOAD FILE="../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Maps/MP_MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.25-02.03.28:694][494]LightingResults: New page: Lighting Build
+[2016.08.25-02.03.28:696][494]LoadErrors: New page: Loading map: MP_MainMenu.umap
+[2016.08.25-02.03.28:698][494]MapCheck: New page: Map Check
+[2016.08.25-02.03.28:698][494]LightingResults: New page: Lighting Build
+[2016.08.25-02.03.28:815][494]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.25-02.03.28:847][494]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.25-02.03.28:900][494]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 52.409ms to complete.
+[2016.08.25-02.03.28:900][494]LogFileHelpers: Loading map 'MP_MainMenu' took 0.210
+[2016.08.25-02.03.31:981][659]LogSavePackage: Save=91.21ms
+[2016.08.25-02.03.31:981][659]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/UEDPCMP_MainMenuD7C1F9014323BE91B809D99B6E934F03.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Maps/UEDPCMP_MainMenu.umap'
+[2016.08.25-02.03.32:007][659]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Maps/UEDPCMP_MainMenu.umap
+[2016.08.25-02.03.32:014][659]LogEditorTransaction: Undo Spawn Play From Here Start
+[2016.08.25-02.04.32:319][309]LogAIModule: Creating AISystem for world MP_Level1
+[2016.08.25-02.04.32:374][309]Cmd: MAP LOAD FILE="../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Maps/MP_Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.25-02.04.32:374][309]LightingResults: New page: Lighting Build
+[2016.08.25-02.04.32:374][309]LoadErrors: New page: Loading map: MP_Level1.umap
+[2016.08.25-02.04.32:375][309]MapCheck: New page: Map Check
+[2016.08.25-02.04.32:375][309]LightingResults: New page: Lighting Build
+[2016.08.25-02.04.32:486][309]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.25-02.04.32:520][309]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.25-02.04.32:579][309]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 58.556ms to complete.
+[2016.08.25-02.04.32:580][309]LogFileHelpers: Loading map 'MP_Level1' took 0.208
+[2016.08.25-02.04.33:922][376]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.08.25-02.04.37:132][547]LogSavePackage: Save=103.19ms
+[2016.08.25-02.04.37:132][547]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/MP_Level1952BD1F4428F3DFD8984E7B313FA7562.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Maps/MP_Level1.umap'
+[2016.08.25-02.04.37:134][547]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Maps/MP_Level1.umap
+[2016.08.25-02.04.39:614][578]LogSavePackage: Save=50.09ms
+[2016.08.25-02.04.39:614][578]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/GM_MP89B416ED4DAA2208F8392F9F7A8B6187.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GM_MP.uasset'
+[2016.08.25-02.04.39:618][578]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GM_MP.uasset
+[2016.08.25-02.04.39:835][578]LogSavePackage: Save=120.43ms
+[2016.08.25-02.04.39:835][578]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/UEDPCMP_Level1BBBF57E24A34C36E17377882F6805CA9.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Maps/UEDPCMP_Level1.umap'
+[2016.08.25-02.04.39:837][578]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Maps/UEDPCMP_Level1.umap
+[2016.08.25-02.04.39:843][578]LogEditorTransaction: Undo Spawn Play From Here Start
+[2016.08.25-02.05.25:343][ 98]LogAIModule: Creating AISystem for world MP_MainMenu
+[2016.08.25-02.05.25:405][ 98]Cmd: MAP LOAD FILE="../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Maps/MP_MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.25-02.05.25:405][ 98]LightingResults: New page: Lighting Build
+[2016.08.25-02.05.25:406][ 98]LoadErrors: New page: Loading map: MP_MainMenu.umap
+[2016.08.25-02.05.25:406][ 98]MapCheck: New page: Map Check
+[2016.08.25-0

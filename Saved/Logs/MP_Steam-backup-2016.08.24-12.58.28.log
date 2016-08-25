@@ -1,0 +1,868 @@
+﻿Log file open, 08/23/16 11:18:12
+LogInit:Display: Running engine for game: MP_Steam
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1754843672) SRandInit(-1754843669).
+LogTaskGraph: Started task graph with 4 named threads and 5 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.189465
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: C:/Games/Unreal Engine/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogOnline:Display: STEAM: Loading Steam SDK 1.32
+LogOnline:Warning: STEAM: Steam API disabled!
+LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogVoice:Warning: Failed to initialize voice interface
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.08.23-18.18.12:617][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.23-18.18.12:617][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.08.23-18.18.12:752][  0]LogInit: Computer: MATTHEW
+[2016.08.23-18.18.12:752][  0]LogInit: User: MatthewClaflin
+[2016.08.23-18.18.12:752][  0]LogInit: CPU Page size=65536, Cores=2
+[2016.08.23-18.18.12:752][  0]LogInit: High frequency timer resolution =2.435774 MHz
+[2016.08.23-18.18.12:752][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.08.23-18.18.12:752][  0]LogMemory: Platform Memory Stats for Windows
+[2016.08.23-18.18.12:752][  0]LogMemory: Process Physical Memory: 191.47 MB used, 191.47 MB peak
+[2016.08.23-18.18.12:752][  0]LogMemory: Process Virtual Memory: 195.30 MB used, 195.30 MB peak
+[2016.08.23-18.18.12:752][  0]LogMemory: Physical Memory: 4733.78 MB used, 8116.09 MB total
+[2016.08.23-18.18.12:752][  0]LogMemory: Virtual Memory: 556.06 MB used, 134217728.00 MB total
+[2016.08.23-18.18.14:214][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.08.23-18.18.15:234][  0]LogD3D11RHI: D3D11 adapters:
+[2016.08.23-18.18.15:287][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 770M ' (Feature Level 11_0)
+[2016.08.23-18.18.15:288][  0]LogD3D11RHI:       3007/0/4058 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.08.23-18.18.15:297][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2016.08.23-18.18.15:297][  0]LogD3D11RHI:       112/0/4058 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2016.08.23-18.18.15:299][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.08.23-18.18.15:299][  0]LogD3D11RHI:       0/0/4058 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.08.23-18.18.15:299][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.08.23-18.18.15:331][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.08.23-18.18.15:331][  0]LogD3D11RHI:     GPU DeviceId: 0x11e0 (for the marketing name, search the web for "GPU Device Id")
+[2016.08.23-18.18.15:331][  0]LogWindows: EnumDisplayDevices:
+[2016.08.23-18.18.15:332][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2016.08.23-18.18.15:332][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2016.08.23-18.18.15:332][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2016.08.23-18.18.15:332][  0]LogWindows:    3. 'NVIDIA GeForce GTX 770M ' (P:0 D:0)
+[2016.08.23-18.18.15:332][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2016.08.23-18.18.15:332][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 770M 
+[2016.08.23-18.18.15:332][  0]LogD3D11RHI:   Driver Version: 365.10 (internal:10.18.13.6510, unified:365.10)
+[2016.08.23-18.18.15:332][  0]LogD3D11RHI:      Driver Date: 4-27-2016
+[2016.08.23-18.18.15:332][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.08.23-18.18.15:351][  0]LogD3D11RHI: Async texture creation enabled
+[2016.08.23-18.18.15:365][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 0)
+[2016.08.23-18.18.15:367][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Intermediate/Shaders/WorkingDirectory/124168/).
+[2016.08.23-18.18.15:368][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MATTHE~1/AppData/Local/Temp/UnrealShaderWorkingDir/DE039357491AE0DD434CBABECCD0CF2C/'.
+[2016.08.23-18.18.15:368][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.08.23-18.18.22:506][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.08.23-18.18.22:516][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.08.23-18.18.22:527][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.08.23-18.18.22:538][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.08.23-18.18.22:549][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.08.23-18.18.22:561][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.08.23-18.18.22:569][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.08.23-18.18.22:577][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.08.23-18.18.22:588][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.08.23-18.18.22:599][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.08.23-18.18.22:608][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.08.23-18.18.22:629][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.08.23-18.18.22:629][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.08.23-18.18.22:630][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.08.23-18.18.23:297][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.08.23-18.18.23:311][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.08.23-18.18.23:320][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.08.23-18.18.23:328][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.08.23-18.18.23:355][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.08.23-18.18.23:355][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.23-18.18.24:540][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.08.23-18.18.25:288][  0]LogDerivedDataCache: Loaded boot cache 0.75s 48MB C:/Users/MatthewClaflin/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.08.23-18.18.25:288][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/MatthewClaflin/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.08.23-18.18.25:289][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.08.23-18.18.25:289][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.08.23-18.18.25:289][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.08.23-18.18.25:289][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.08.23-18.18.25:392][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.08.23-18.18.25:405][  0]LogDerivedDataCache: Using Local data cache path C:/Users/MatthewClaflin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.08.23-18.18.38:574][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.23-18.18.38:601][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.08.23-18.18.40:767][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.08.23-18.18.40:767][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.08.23-18.18.40:768][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.08.23-18.18.45:558][  0]LogAssetRegistry: FAssetRegistry took 0.0223 seconds to start up
+[2016.08.23-18.18.45:953][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.294213 seconds
+[2016.08.23-18.18.45:959][  0]LogUObjectArray: 28746 objects as part of root set at end of initial load.
+[2016.08.23-18.18.45:959][  0]LogUObjectAllocator: 6069096 out of 0 bytes used by permanent object pool.
+[2016.08.23-18.18.45:959][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.08.23-18.18.49:473][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.23-18.18.49:473][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.23-18.19.04:382][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.08.23-18.19.06:434][  0]SourceControl: Info Source control is disabled
+[2016.08.23-18.19.07:146][  0]SourceControl: Info Source control is disabled
+[2016.08.23-18.19.07:178][  0]SourceControl: Info Source control is disabled
+[2016.08.23-18.19.07:211][  0]SourceControl: Info Source control is disabled
+[2016.08.23-18.19.08:112][  0]LogEngine: Initializing Engine...
+[2016.08.23-18.19.08:381][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2016.08.23-18.19.08:404][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2016.08.23-18.19.09:726][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.08.23-18.19.09:737][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.23-18.19.09:914][  0]LogInit: FAudioDevice initialized.
+[2016.08.23-18.19.09:945][  0]LogDerivedDataCache: Saved boot cache 0.03s 48MB C:/Users/MatthewClaflin/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.08.23-18.19.09:952][  0]LogInit: Texture streaming: Enabled
+[2016.08.23-18.19.12:246][  0]LogInit: Transaction tracking system initialized
+[2016.08.23-18.19.13:158][  0]BlueprintLog: New page: Editor Load
+[2016.08.23-18.19.24:547][  0]LocalizationService: Info Localization service is disabled
+[2016.08.23-18.19.25:742][  0]LogConsoleResponse:Display: 
+[2016.08.23-18.19.36:161][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/' took 0.05s
+[2016.08.23-18.19.36:161][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.08.23-18.19.36:180][  0]LogCook:Display: Mobile HDR setting 1
+[2016.08.23-18.19.53:135][  0]SourceControl: Info Source control is disabled
+[2016.08.23-18.19.53:965][  0]Cmd: MAP LOAD FILE="../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.23-18.19.58:121][  0]LightingResults: New page: Lighting Build
+[2016.08.23-18.20.02:158][  0]MapCheck: New page: Map Check
+[2016.08.23-18.20.02:158][  0]LightingResults: New page: Lighting Build
+[2016.08.23-18.20.53:562][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.08.23-18.21.04:383][  0]LogEditorServer: Finished looking for orphan Actors (0.052 secs)
+[2016.08.23-18.21.05:093][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.23-18.21.05:424][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 330.711ms to complete.
+[2016.08.23-18.21.05:424][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 71.741
+[2016.08.23-18.21.20:734][  0]LogCollectionManager: Loaded 0 collections in 0.006022 seconds
+[2016.08.23-18.21.23:421][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Collections/' took 0.01s
+[2016.08.23-18.21.23:421][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/Developers/MatthewClaflin/Collections/' took 0.01s
+[2016.08.23-18.21.23:421][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/Collections/' took 0.01s
+[2016.08.23-18.21.23:421][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000019 seconds
+[2016.08.23-18.21.23:666][  0]LogContentBrowser: Native class hierarchy populated in 0.1343 seconds. Added 2069 classes and 380 folders.
+[2016.08.23-18.21.24:347][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.08.23-18.21.24:347][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.08.23-18.21.24:396][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0016 seconds. Added 12 classes and 0 folders.
+[2016.08.23-18.21.24:623][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2016.08.23-18.21.35:730][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2016.08.23-18.21.36:203][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.08.23-18.21.39:175][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.08.23-18.21.39:597][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.08.23-18.21.39:843][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.08.23-18.21.39:843][  0]LogLoad: Full Startup: 213.39 seconds (BP compile: 6.54 seconds)
+[2016.08.23-18.21.39:843][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.08.23-18.21.39:843][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.08.23-18.21.40:355][  0]LogOcInput: OculusInput pre-init called
+[2016.08.23-18.21.42:321][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.08.23-18.21.49:227][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2016.08.23-18.22.03:620][  8]LogAssetRegistry: Asset discovery search completed in 198.0844 seconds
+[2016.08.23-18.22.03:620][  8]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.08.23-18.22.03:620][  8]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000059 seconds (updated 0 objects)
+[2016.08.23-21.46.04:605][776]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0018 seconds. Added 111 classes and 0 folders.
+[2016.08.23-21.47.18:378][742]LogMetaData: Removing '/Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.SKEL_W_MainMenu_C' ref from Metadata '/Game/ThirdPersonBP/Multiplayer/Widgets/NewWidgetBlueprint.PackageMetaData'
+[2016.08.23-21.47.18:379][742]LogMetaData: Removing '/Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu_C' ref from Metadata '/Game/ThirdPersonBP/Multiplayer/Widgets/NewWidgetBlueprint.PackageMetaData'
+[2016.08.23-21.47.18:379][742]LogMetaData: Removing '/Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ThirdPersonBP/Multiplayer/Widgets/NewWidgetBlueprint.PackageMetaData'
+[2016.08.23-21.47.18:379][742]LogMetaData: Removing '/Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ThirdPersonBP/Multiplayer/Widgets/NewWidgetBlueprint.PackageMetaData'
+[2016.08.23-21.47.18:533][742]LogSavePackage: Save=27.80ms
+[2016.08.23-21.47.18:533][742]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_MainMenu31C2DAE04424A2754932ABAC6F8BD0DC.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.uasset'
+[2016.08.23-21.47.18:577][742]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.uasset
+[2016.08.23-21.48.23:254][299]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.095
+[2016.08.23-21.48.23:428][299]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu] ([1] browsable assets)...
+[2016.08.23-21.48.23:428][299]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu]
+[2016.08.23-21.48.23:655][299]LogSavePackage: Save=22.01ms
+[2016.08.23-21.48.23:655][299]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_MainMenu_Auto1C9373FA44A929579908B1DACE0290C80.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu_Auto1.uasset'
+[2016.08.23-21.48.23:657][299]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu_Auto1.uasset
+[2016.08.23-21.48.23:657][299]LogFileHelpers: Auto-saving content packages took 0.347
+[2016.08.23-21.48.57:102][996]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_7:W_MainMenu_C_5.WidgetTree_5.VerticalBox_0
+[2016.08.23-21.48.57:102][996]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu_C:WidgetTree_5.VerticalBox_0
+[2016.08.23-21.48.57:102][996]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_7:W_MainMenu_C_4.WidgetTree_4.VerticalBox_0
+[2016.08.23-21.48.57:102][996]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu_C:WidgetTree_4.VerticalBox_0
+[2016.08.23-21.48.57:102][996]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog_C:WidgetTree.VerticalBox_0
+[2016.08.23-21.48.57:102][996]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_7:W_MainMenu_C_3.WidgetTree_3.VerticalBox_0
+[2016.08.23-21.48.57:102][996]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu_C:WidgetTree_3.VerticalBox_0
+[2016.08.23-21.48.57:102][996]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog_C:WidgetTree_1.VerticalBox_0
+[2016.08.23-21.48.57:102][996]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu:WidgetTree.VerticalBox_0
+[2016.08.23-21.48.57:102][996]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0.VerticalBoxSlot_0) from referencer (Button /Engine/UMG/Editor/Transient.Button_0).  Import failed...
+[2016.08.23-21.48.57:102][996]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_0.VerticalBoxSlot_0''
+[2016.08.23-21.48.57:103][996]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_7:W_MainMenu_C_5.WidgetTree_5.VerticalBox_0
+[2016.08.23-21.48.57:103][996]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu_C:WidgetTree_5.VerticalBox_0
+[2016.08.23-21.48.57:103][996]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_7:W_MainMenu_C_4.WidgetTree_4.VerticalBox_0
+[2016.08.23-21.48.57:103][996]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu_C:WidgetTree_4.VerticalBox_0
+[2016.08.23-21.48.57:103][996]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog_C:WidgetTree.VerticalBox_0
+[2016.08.23-21.48.57:103][996]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_7:W_MainMenu_C_3.WidgetTree_3.VerticalBox_0
+[2016.08.23-21.48.57:103][996]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu_C:WidgetTree_3.VerticalBox_0
+[2016.08.23-21.48.57:103][996]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog_C:WidgetTree_1.VerticalBox_0
+[2016.08.23-21.48.57:103][996]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu:WidgetTree.VerticalBox_0
+[2016.08.23-21.48.57:103][996]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0.VerticalBoxSlot_1) from referencer (Spacer /Engine/UMG/Editor/Transient.Spacer_0).  Import failed...
+[2016.08.23-21.48.57:103][996]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_0.VerticalBoxSlot_1''
+[2016.08.23-21.48.58:127][ 53]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_7:W_MainMenu_C_5.WidgetTree_5.VerticalBox_0
+[2016.08.23-21.48.58:127][ 53]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu_C:WidgetTree_5.VerticalBox_0
+[2016.08.23-21.48.58:127][ 53]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_7:W_MainMenu_C_4.WidgetTree_4.VerticalBox_0
+[2016.08.23-21.48.58:127][ 53]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu_C:WidgetTree_4.VerticalBox_0
+[2016.08.23-21.48.58:127][ 53]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog_C:WidgetTree.VerticalBox_0
+[2016.08.23-21.48.58:127][ 53]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_7:W_MainMenu_C_3.WidgetTree_3.VerticalBox_0
+[2016.08.23-21.48.58:127][ 53]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu_C:WidgetTree_3.VerticalBox_0
+[2016.08.23-21.48.58:127][ 53]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog_C:WidgetTree_1.VerticalBox_0
+[2016.08.23-21.48.58:127][ 53]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu:WidgetTree.VerticalBox_0
+[2016.08.23-21.48.58:127][ 53]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu_C:WidgetTree_6.VerticalBox_0
+[2016.08.23-21.48.58:127][ 53]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_7:W_MainMenu_C_6.WidgetTree_6.VerticalBox_0
+[2016.08.23-21.48.58:127][ 53]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0.VerticalBoxSlot_0) from referencer (Button /Engine/UMG/Editor/Transient.Button_0).  Import failed...
+[2016.08.23-21.48.58:127][ 53]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_0.VerticalBoxSlot_0''
+[2016.08.23-21.48.58:128][ 53]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_7:W_MainMenu_C_5.WidgetTree_5.VerticalBox_0
+[2016.08.23-21.48.58:128][ 53]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu_C:WidgetTree_5.VerticalBox_0
+[2016.08.23-21.48.58:128][ 53]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_7:W_MainMenu_C_4.WidgetTree_4.VerticalBox_0
+[2016.08.23-21.48.58:128][ 53]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu_C:WidgetTree_4.VerticalBox_0
+[2016.08.23-21.48.58:128][ 53]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog_C:WidgetTree.VerticalBox_0
+[2016.08.23-21.48.58:128][ 53]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_7:W_MainMenu_C_3.WidgetTree_3.VerticalBox_0
+[2016.08.23-21.48.58:128][ 53]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu_C:WidgetTree_3.VerticalBox_0
+[2016.08.23-21.48.58:128][ 53]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog_C:WidgetTree_1.VerticalBox_0
+[2016.08.23-21.48.58:128][ 53]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu:WidgetTree.VerticalBox_0
+[2016.08.23-21.48.58:128][ 53]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu_C:WidgetTree_6.VerticalBox_0
+[2016.08.23-21.48.58:128][ 53]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_7:W_MainMenu_C_6.WidgetTree_6.VerticalBox_0
+[2016.08.23-21.48.58:128][ 53]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0.VerticalBoxSlot_1) from referencer (Spacer /Engine/UMG/Editor/Transient.Spacer_0).  Import failed...
+[2016.08.23-21.48.58:128][ 53]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_0.VerticalBoxSlot_1''
+[2016.08.23-21.48.58:962][102]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_7:W_MainMenu_C_5.WidgetTree_5.VerticalBox_0
+[2016.08.23-21.48.58:962][102]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu_C:WidgetTree_5.VerticalBox_0
+[2016.08.23-21.48.58:962][102]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_7:W_MainMenu_C_4.WidgetTree_4.VerticalBox_0
+[2016.08.23-21.48.58:962][102]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu_C:WidgetTree_4.VerticalBox_0
+[2016.08.23-21.48.58:962][102]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog_C:WidgetTree.VerticalBox_0
+[2016.08.23-21.48.58:962][102]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_7:W_MainMenu_C_3.WidgetTree_3.VerticalBox_0
+[2016.08.23-21.48.58:962][102]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu_C:WidgetTree_3.VerticalBox_0
+[2016.08.23-21.48.58:962][102]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog_C:WidgetTree_1.VerticalBox_0
+[2016.08.23-21.48.58:962][102]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu:WidgetTree.VerticalBox_0
+[2016.08.23-21.48.58:962][102]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu_C:WidgetTree_6.VerticalBox_0
+[2016.08.23-21.48.58:962][102]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_7:W_MainMenu_C_6.WidgetTree_6.VerticalBox_0
+[2016.08.23-21.48.58:962][102]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu_C:WidgetTree_7.VerticalBox_0
+[2016.08.23-21.48.58:962][102]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_7:W_MainMenu_C_7.WidgetTree_7.VerticalBox_0
+[2016.08.23-21.48.58:962][102]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0.VerticalBoxSlot_0) from referencer (Button /Engine/UMG/Editor/Transient.Button_0).  Import failed...
+[2016.08.23-21.48.58:962][102]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_0.VerticalBoxSlot_0''
+[2016.08.23-21.48.58:963][102]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_7:W_MainMenu_C_5.WidgetTree_5.VerticalBox_0
+[2016.08.23-21.48.58:963][102]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu_C:WidgetTree_5.VerticalBox_0
+[2016.08.23-21.48.58:963][102]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_7:W_MainMenu_C_4.WidgetTree_4.VerticalBox_0
+[2016.08.23-21.48.58:963][102]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu_C:WidgetTree_4.VerticalBox_0
+[2016.08.23-21.48.58:963][102]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog_C:WidgetTree.VerticalBox_0
+[2016.08.23-21.48.58:963][102]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_7:W_MainMenu_C_3.WidgetTree_3.VerticalBox_0
+[2016.08.23-21.48.58:963][102]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu_C:WidgetTree_3.VerticalBox_0
+[2016.08.23-21.48.58:963][102]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog_C:WidgetTree_1.VerticalBox_0
+[2016.08.23-21.48.58:963][102]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu:WidgetTree.VerticalBox_0
+[2016.08.23-21.48.58:963][102]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu_C:WidgetTree_6.VerticalBox_0
+[2016.08.23-21.48.58:963][102]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_7:W_MainMenu_C_6.WidgetTree_6.VerticalBox_0
+[2016.08.23-21.48.58:963][102]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu_C:WidgetTree_7.VerticalBox_0
+[2016.08.23-21.48.58:963][102]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_7:W_MainMenu_C_7.WidgetTree_7.VerticalBox_0
+[2016.08.23-21.48.58:963][102]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/ThirdPersonBP/Multiplayer/Widgets/W_ErrorDialog.W_ErrorDialog:WidgetTree.VerticalBox_0.VerticalBoxSlot_1) from referencer (Spacer /Engine/UMG/Editor/Transient.Spacer_0).  Import failed...
+[2016.08.23-21.48.58:963][102]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_0.VerticalBoxSlot_1''
+[2016.08.23-21.55.13:989][ 78]BlueprintLog: New page: Compile W_MainMenu
+[2016.08.23-21.55.14:177][ 78]BlueprintEditorCompileResults: Info [3027.70] Compile of W_MainMenu successful! [in 168 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu)
+[2016.08.23-21.55.14:718][102]LogSavePackage: Save=29.22ms
+[2016.08.23-21.55.14:718][102]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_MainMenu7CBF0993465B1B749C4B28BDC2EF1C9D.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.uasset'
+[2016.08.23-21.55.14:722][102]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.uasset
+[2016.08.23-21.56.44:204][977]BlueprintLog: New page: Compile W_MainMenu
+[2016.08.23-21.56.44:210][977]LogBlueprint:Error: Compiler Error Binding: Property ' TextDelegate ' on Widget ' TextBlock_3 ': Member:ToggleLAN_Text Has the wrong number of arguments, it needs to return 1 value and take no parameters.
+[2016.08.23-21.56.44:395][977]LogBlueprint:Warning: Compiler Warning [3117.94] Compile of W_MainMenu failed. 1 Fatal Issue(s) 0 Warning(s) [in 190 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu)
+[2016.08.23-21.56.44:395][977]BlueprintEditorCompileResults:Error: Error Binding: Property ' TextDelegate ' on Widget ' TextBlock_3 ': Member:ToggleLAN_Text Has the wrong number of arguments, it needs to return 1 value and take no parameters.
+[2016.08.23-21.56.44:395][977]BlueprintEditorCompileResults:Warning: Warning [3117.94] Compile of W_MainMenu failed. 1 Fatal Issue(s) 0 Warning(s) [in 190 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu)
+[2016.08.23-21.56.44:909][999]LogSavePackage: Save=108.86ms
+[2016.08.23-21.56.44:909][999]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_MainMenu9EB65FC14DE116D48510A785C1BEADD5.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.uasset'
+[2016.08.23-21.56.44:913][999]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.uasset
+[2016.08.23-21.58.26:689][444]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.042
+[2016.08.23-21.58.26:693][444]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu] ([1] browsable assets)...
+[2016.08.23-21.58.26:693][444]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu]
+[2016.08.23-21.58.26:773][444]LogSavePackage: Save=76.98ms
+[2016.08.23-21.58.26:773][444]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_MainMenu_Auto2EC9412614BEBDF42566288AA3D7FC3F0.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu_Auto2.uasset'
+[2016.08.23-21.58.26:775][444]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu_Auto2.uasset
+[2016.08.23-21.58.26:775][444]LogFileHelpers: Auto-saving content packages took 0.084
+[2016.08.23-21.59.27:376][922]BlueprintLog: New page: Compile W_MainMenu
+[2016.08.23-21.59.27:486][922]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.08.23-21.59.27:486][922]BlueprintEditorCompileResults: Info [3281.03] Compile of W_MainMenu successful! [in 110 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu)
+[2016.08.23-21.59.28:349][970]LogSavePackage: Save=27.08ms
+[2016.08.23-21.59.28:349][970]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_MainMenu3611742D4187D65D819849B45A2B5731.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.uasset'
+[2016.08.23-21.59.28:353][970]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.uasset
+[2016.08.23-22.01.14:940][230]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu:EventGraph.K2Node_DynamicCast_1 or K2Node_DynamicCast /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_DynamicCast_1
+[2016.08.23-22.01.14:940][230]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_1.EdGraphPin_46''
+[2016.08.23-22.02.16:401][633]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu:EventGraph.K2Node_DynamicCast_1 or K2Node_DynamicCast /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_DynamicCast_1
+[2016.08.23-22.02.16:402][633]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_1.EdGraphPin_73''
+[2016.08.23-22.03.58:401][760]BlueprintLog: New page: Compile W_MainMenu
+[2016.08.23-22.03.58:537][760]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.08.23-22.03.58:537][760]BlueprintEditorCompileResults: Info [3552.08] Compile of W_MainMenu successful! [in 135 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu)
+[2016.08.23-22.03.59:068][786]LogSavePackage: Save=38.65ms
+[2016.08.23-22.03.59:068][786]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_MainMenuC7DA77214F2D460DBB672B8151D25B72.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.uasset'
+[2016.08.23-22.03.59:071][786]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.uasset
+[2016.08.23-22.04.28:867][833]BlueprintLog: New page: Compile GI_MP_Steam
+[2016.08.23-22.04.29:062][833]BlueprintEditorCompileResults: Info [3582.61] Compile of GI_MP_Steam successful! [in 194 ms] (/Game/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.GI_MP_Steam)
+[2016.08.23-22.04.29:519][853]LogSavePackage: Save=55.40ms
+[2016.08.23-22.04.29:519][853]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/GI_MP_Steam042E8BA049DBFADE1CF7C19C7D51FA2B.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.uasset'
+[2016.08.23-22.04.29:523][853]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.uasset
+[2016.08.23-22.04.51:015][396]BlueprintLog: New page: Compile W_MainMenu
+[2016.08.23-22.04.51:136][396]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.08.23-22.04.51:136][396]BlueprintEditorCompileResults: Info [3604.68] Compile of W_MainMenu successful! [in 120 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu)
+[2016.08.23-22.04.51:749][428]LogSavePackage: Save=35.56ms
+[2016.08.23-22.04.51:749][428]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_MainMenu07C3581841BB650235ED02B618706A9A.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.uasset'
+[2016.08.23-22.04.51:776][428]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.uasset
+[2016.08.23-22.05.37:505][274]LogClass:Warning: Type mismatch in SessionsFound of SKEL_W_MainMenu_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
+[2016.08.23-22.05.43:774][377]BlueprintLog: New page: Compile W_MainMenu
+[2016.08.23-22.05.43:938][377]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.08.23-22.05.43:938][377]BlueprintEditorCompileResults: Info [3657.48] Compile of W_MainMenu successful! [in 164 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu)
+[2016.08.23-22.05.44:428][399]LogSavePackage: Save=40.30ms
+[2016.08.23-22.05.44:428][399]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_MainMenuF517AFA2453DCC075C887CB7F5F971E2.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.uasset'
+[2016.08.23-22.05.44:435][399]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.uasset
+[2016.08.23-22.06.13:669][406]BlueprintLog: New page: Compile GI_MP_Steam
+[2016.08.23-22.06.13:826][406]BlueprintEditorCompileResults: Info [3687.37] Compile of GI_MP_Steam successful! [in 156 ms] (/Game/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.GI_MP_Steam)
+[2016.08.23-22.06.14:309][429]LogSavePackage: Save=57.11ms
+[2016.08.23-22.06.14:309][429]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/GI_MP_SteamE9422541429AF4C6840677964F7BC0B3.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.uasset'
+[2016.08.23-22.06.14:313][429]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.uasset
+[2016.08.23-22.09.13:513][676]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.044
+[2016.08.23-22.09.13:515][676]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam] ([1] browsable assets)...
+[2016.08.23-22.09.13:515][676]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam]
+[2016.08.23-22.09.13:587][676]LogSavePackage: Save=68.73ms
+[2016.08.23-22.09.13:587][676]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/GI_MP_Steam_Auto3387AD07F4DA6D90CD6A6ADB4A6CDCA50.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam_Auto3.uasset'
+[2016.08.23-22.09.13:589][676]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam_Auto3.uasset
+[2016.08.23-22.09.13:589][676]LogFileHelpers: Auto-saving content packages took 0.075
+[2016.08.23-22.12.48:785][646]BlueprintLog: New page: Compile GI_MP_Steam
+[2016.08.23-22.12.49:004][646]BlueprintEditorCompileResults: Info [4082.55] Compile of GI_MP_Steam successful! [in 219 ms] (/Game/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.GI_MP_Steam)
+[2016.08.23-22.12.49:572][672]LogSavePackage: Save=62.16ms
+[2016.08.23-22.12.49:572][672]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/GI_MP_Steam4554570040457954638C539D77D40A5D.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.uasset'
+[2016.08.23-22.12.49:575][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.uasset
+[2016.08.23-23.02.40:840][ 63]BlueprintLog: New page: Compile GI_MP_Steam
+[2016.08.23-23.02.41:013][ 63]BlueprintEditorCompileResults: Info [7074.56] Compile of GI_MP_Steam successful! [in 172 ms] (/Game/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.GI_MP_Steam)
+[2016.08.23-23.03.14:918][739]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.043
+[2016.08.23-23.03.14:920][739]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam] ([1] browsable assets)...
+[2016.08.23-23.03.14:920][739]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam]
+[2016.08.23-23.03.14:992][739]LogSavePackage: Save=64.28ms
+[2016.08.23-23.03.14:992][739]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/GI_MP_Steam_Auto47C74153043007D7856DD659F270B0D18.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam_Auto4.uasset'
+[2016.08.23-23.03.14:994][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam_Auto4.uasset
+[2016.08.23-23.03.14:996][739]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList] ([1] browsable assets)...
+[2016.08.23-23.03.14:996][739]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList]
+[2016.08.23-23.03.15:006][739]LogSavePackage: Save=8.75ms
+[2016.08.23-23.03.15:006][739]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_ServerList_Auto46A0178B943BC1CD39417D9B447CEE9C3.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList_Auto4.uasset'
+[2016.08.23-23.03.15:008][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList_Auto4.uasset
+[2016.08.23-23.03.15:008][739]LogFileHelpers: Auto-saving content packages took 0.089
+[2016.08.23-23.05.16:533][ 87]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList_C:WidgetTree_5.HorizontalBox_0
+[2016.08.23-23.05.16:533][ 87]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_9:W_ServerList_C_5.WidgetTree_5.HorizontalBox_0
+[2016.08.23-23.05.16:533][ 87]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList_C:WidgetTree_6.HorizontalBox_0
+[2016.08.23-23.05.16:534][ 87]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_9:W_ServerList_C_6.WidgetTree_6.HorizontalBox_0
+[2016.08.23-23.05.16:534][ 87]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList_C:WidgetTree_7.HorizontalBox_0
+[2016.08.23-23.05.16:534][ 87]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_9:W_ServerList_C_7.WidgetTree_7.HorizontalBox_0
+[2016.08.23-23.05.16:534][ 87]LogProperty:Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_1).  Import failed...
+[2016.08.23-23.05.16:534][ 87]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'HorizontalBox_0.HorizontalBoxSlot_0''
+[2016.08.23-23.05.16:534][ 87]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList_C:WidgetTree_5.HorizontalBox_0
+[2016.08.23-23.05.16:534][ 87]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_9:W_ServerList_C_5.WidgetTree_5.HorizontalBox_0
+[2016.08.23-23.05.16:534][ 87]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList_C:WidgetTree_6.HorizontalBox_0
+[2016.08.23-23.05.16:534][ 87]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_9:W_ServerList_C_6.WidgetTree_6.HorizontalBox_0
+[2016.08.23-23.05.16:534][ 87]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList_C:WidgetTree_7.HorizontalBox_0
+[2016.08.23-23.05.16:534][ 87]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_9:W_ServerList_C_7.WidgetTree_7.HorizontalBox_0
+[2016.08.23-23.05.16:534][ 87]LogProperty:Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_1) from referencer (Spacer /Engine/UMG/Editor/Transient.Spacer_1).  Import failed...
+[2016.08.23-23.05.16:534][ 87]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'HorizontalBox_0.HorizontalBoxSlot_1''
+[2016.08.23-23.05.18:936][226]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList_C:WidgetTree_5.HorizontalBox_0
+[2016.08.23-23.05.18:936][226]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_9:W_ServerList_C_5.WidgetTree_5.HorizontalBox_0
+[2016.08.23-23.05.18:936][226]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList_C:WidgetTree_6.HorizontalBox_0
+[2016.08.23-23.05.18:936][226]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_9:W_ServerList_C_6.WidgetTree_6.HorizontalBox_0
+[2016.08.23-23.05.18:936][226]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList_C:WidgetTree_7.HorizontalBox_0
+[2016.08.23-23.05.18:936][226]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_9:W_ServerList_C_7.WidgetTree_7.HorizontalBox_0
+[2016.08.23-23.05.18:936][226]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList_C:WidgetTree_8.HorizontalBox_0
+[2016.08.23-23.05.18:936][226]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_9:W_ServerList_C_8.WidgetTree_8.HorizontalBox_0
+[2016.08.23-23.05.18:936][226]LogProperty:Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_2).  Import failed...
+[2016.08.23-23.05.18:936][226]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'HorizontalBox_0.HorizontalBoxSlot_2''
+[2016.08.23-23.05.33:199][656]BlueprintLog: New page: Compile W_ServerList
+[2016.08.23-23.05.33:329][656]BlueprintEditorCompileResults: Info [7246.87] Compile of W_ServerList successful! [in 130 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList)
+[2016.08.23-23.05.33:843][682]LogSavePackage: Save=18.32ms
+[2016.08.23-23.05.33:843][682]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_ServerListA7F70D544EAB614EF13F49B420F7B4C6.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.uasset'
+[2016.08.23-23.05.33:849][682]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.uasset
+[2016.08.23-23.05.36:448][832]LogSavePackage: Save=62.25ms
+[2016.08.23-23.05.36:448][832]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/GI_MP_SteamAB44D39C453FD688707CF4A6ED247398.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.uasset'
+[2016.08.23-23.05.36:451][832]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.uasset
+[2016.08.23-23.07.10:460][245]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.TRASHCLASS_W_ServerList_145:HorizontalBox_1 or HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_1
+[2016.08.23-23.07.10:460][245]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.TRASHCLASS_W_ServerList_145:HorizontalBox_1 or HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList_C:WidgetTree_14.HorizontalBox_1
+[2016.08.23-23.07.10:460][245]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.TRASHCLASS_W_ServerList_145:HorizontalBox_1 or HorizontalBox /Engine/Transient.World_9:W_ServerList_C_12.WidgetTree_14.HorizontalBox_1
+[2016.08.23-23.07.10:460][245]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.TRASHCLASS_W_ServerList_145:HorizontalBox_1 or HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList_C:WidgetTree_15.HorizontalBox_1
+[2016.08.23-23.07.10:460][245]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.TRASHCLASS_W_ServerList_145:HorizontalBox_1 or HorizontalBox /Engine/Transient.World_9:W_ServerList_C_13.WidgetTree_15.HorizontalBox_1
+[2016.08.23-23.07.10:460][245]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.TRASHCLASS_W_ServerList_145:HorizontalBox_1 or HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList_C:WidgetTree_16.HorizontalBox_1
+[2016.08.23-23.07.10:460][245]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.TRASHCLASS_W_ServerList_145:HorizontalBox_1 or HorizontalBox /Engine/Transient.World_9:W_ServerList_C_14.WidgetTree_16.HorizontalBox_1
+[2016.08.23-23.07.10:460][245]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.TRASHCLASS_W_ServerList_145:HorizontalBox_1 or HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList_C:WidgetTree_17.HorizontalBox_1
+[2016.08.23-23.07.10:460][245]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.TRASHCLASS_W_ServerList_145:HorizontalBox_1 or HorizontalBox /Engine/Transient.World_9:W_ServerList_C_15.WidgetTree_17.HorizontalBox_1
+[2016.08.23-23.07.10:460][245]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_5 or HorizontalBoxSlot /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList_C:WidgetTree_15.HorizontalBox_1.HorizontalBoxSlot_5
+[2016.08.23-23.07.10:460][245]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_5 or HorizontalBoxSlot /Engine/Transient.World_9:W_ServerList_C_13.WidgetTree_15.HorizontalBox_1.HorizontalBoxSlot_5
+[2016.08.23-23.07.10:460][245]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_5 or HorizontalBoxSlot /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList_C:WidgetTree_16.HorizontalBox_1.HorizontalBoxSlot_5
+[2016.08.23-23.07.10:460][245]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_5 or HorizontalBoxSlot /Engine/Transient.World_9:W_ServerList_C_14.WidgetTree_16.HorizontalBox_1.HorizontalBoxSlot_5
+[2016.08.23-23.07.10:460][245]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_5 or HorizontalBoxSlot /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList_C:WidgetTree_17.HorizontalBox_1.HorizontalBoxSlot_5
+[2016.08.23-23.07.10:460][245]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_5 or HorizontalBoxSlot /Engine/Transient.World_9:W_ServerList_C_15.WidgetTree_17.HorizontalBox_1.HorizontalBoxSlot_5
+[2016.08.23-23.07.10:460][245]LogProperty:Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_5) from referencer (Button /Engine/UMG/Editor/Transient.Button_0).  Import failed...
+[2016.08.23-23.07.10:460][245]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'HorizontalBox_1.HorizontalBoxSlot_5''
+[2016.08.23-23.07.28:716][665]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.TRASHCLASS_W_ServerList_145:HorizontalBox_1 or HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_1
+[2016.08.23-23.07.28:716][665]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.TRASHCLASS_W_ServerList_145:HorizontalBox_1 or HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList_C:WidgetTree_14.HorizontalBox_1
+[2016.08.23-23.07.28:716][665]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.TRASHCLASS_W_ServerList_145:HorizontalBox_1 or HorizontalBox /Engine/Transient.World_9:W_ServerList_C_12.WidgetTree_14.HorizontalBox_1
+[2016.08.23-23.07.28:716][665]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.TRASHCLASS_W_ServerList_145:HorizontalBox_1 or HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList_C:WidgetTree_15.HorizontalBox_1
+[2016.08.23-23.07.28:716][665]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.TRASHCLASS_W_ServerList_145:HorizontalBox_1 or HorizontalBox /Engine/Transient.World_9:W_ServerList_C_13.WidgetTree_15.HorizontalBox_1
+[2016.08.23-23.07.28:716][665]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.TRASHCLASS_W_ServerList_145:HorizontalBox_1 or HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList_C:WidgetTree_16.HorizontalBox_1
+[2016.08.23-23.07.28:716][665]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.TRASHCLASS_W_ServerList_145:HorizontalBox_1 or HorizontalBox /Engine/Transient.World_9:W_ServerList_C_14.WidgetTree_16.HorizontalBox_1
+[2016.08.23-23.07.28:716][665]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.TRASHCLASS_W_ServerList_145:HorizontalBox_1 or HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList_C:WidgetTree_17.HorizontalBox_1
+[2016.08.23-23.07.28:717][665]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.TRASHCLASS_W_ServerList_145:HorizontalBox_1 or HorizontalBox /Engine/Transient.World_9:W_ServerList_C_15.WidgetTree_17.HorizontalBox_1
+[2016.08.23-23.07.28:717][665]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.TRASHCLASS_W_ServerList_145:HorizontalBox_1 or HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList_C:WidgetTree_18.HorizontalBox_1
+[2016.08.23-23.07.28:717][665]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.TRASHCLASS_W_ServerList_145:HorizontalBox_1 or HorizontalBox /Engine/Transient.World_9:W_ServerList_C_16.WidgetTree_18.HorizontalBox_1
+[2016.08.23-23.07.28:717][665]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_6 or HorizontalBoxSlot /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList_C:WidgetTree_17.HorizontalBox_1.HorizontalBoxSlot_6
+[2016.08.23-23.07.28:717][665]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_6 or HorizontalBoxSlot /Engine/Transient.World_9:W_ServerList_C_15.WidgetTree_17.HorizontalBox_1.HorizontalBoxSlot_6
+[2016.08.23-23.07.28:717][665]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_6 or HorizontalBoxSlot /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList_C:WidgetTree_18.HorizontalBox_1.HorizontalBoxSlot_6
+[2016.08.23-23.07.28:717][665]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_6 or HorizontalBoxSlot /Engine/Transient.World_9:W_ServerList_C_16.WidgetTree_18.HorizontalBox_1.HorizontalBoxSlot_6
+[2016.08.23-23.07.28:717][665]LogProperty:Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_6) from referencer (Spacer /Engine/UMG/Editor/Transient.Spacer_3).  Import failed...
+[2016.08.23-23.07.28:717][665]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'HorizontalBox_1.HorizontalBoxSlot_6''
+[2016.08.23-23.07.28:718][665]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.TRASHCLASS_W_ServerList_145:HorizontalBox_1 or HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_1
+[2016.08.23-23.07.28:718][665]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.TRASHCLASS_W_ServerList_145:HorizontalBox_1 or HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList_C:WidgetTree_14.HorizontalBox_1
+[2016.08.23-23.07.28:718][665]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.TRASHCLASS_W_ServerList_145:HorizontalBox_1 or HorizontalBox /Engine/Transient.World_9:W_ServerList_C_12.WidgetTree_14.HorizontalBox_1
+[2016.08.23-23.07.28:718][665]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.TRASHCLASS_W_ServerList_145:HorizontalBox_1 or HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList_C:WidgetTree_15.HorizontalBox_1
+[2016.08.23-23.07.28:718][665]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.TRASHCLASS_W_ServerList_145:HorizontalBox_1 or HorizontalBox /Engine/Transient.World_9:W_ServerList_C_13.WidgetTree_15.HorizontalBox_1
+[2016.08.23-23.07.28:718][665]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.TRASHCLASS_W_ServerList_145:HorizontalBox_1 or HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList_C:WidgetTree_16.HorizontalBox_1
+[2016.08.23-23.07.28:718][665]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.TRASHCLASS_W_ServerList_145:HorizontalBox_1 or HorizontalBox /Engine/Transient.World_9:W_ServerList_C_14.WidgetTree_16.HorizontalBox_1
+[2016.08.23-23.07.28:718][665]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.TRASHCLASS_W_ServerList_145:HorizontalBox_1 or HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList_C:WidgetTree_17.HorizontalBox_1
+[2016.08.23-23.07.28:718][665]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.TRASHCLASS_W_ServerList_145:HorizontalBox_1 or HorizontalBox /Engine/Transient.World_9:W_ServerList_C_15.WidgetTree_17.HorizontalBox_1
+[2016.08.23-23.07.28:718][665]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.TRASHCLASS_W_ServerList_145:HorizontalBox_1 or HorizontalBox /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList_C:WidgetTree_18.HorizontalBox_1
+[2016.08.23-23.07.28:718][665]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.TRASHCLASS_W_ServerList_145:HorizontalBox_1 or HorizontalBox /Engine/Transient.World_9:W_ServerList_C_16.WidgetTree_18.HorizontalBox_1
+[2016.08.23-23.07.28:718][665]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_7 or HorizontalBoxSlot /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList_C:WidgetTree_18.HorizontalBox_1.HorizontalBoxSlot_7
+[2016.08.23-23.07.28:718][665]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_7 or HorizontalBoxSlot /Engine/Transient.World_9:W_ServerList_C_16.WidgetTree_18.HorizontalBox_1.HorizontalBoxSlot_7
+[2016.08.23-23.07.28:718][665]LogProperty:Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_7) from referencer (Button /Engine/UMG/Editor/Transient.Button_1).  Import failed...
+[2016.08.23-23.07.28:718][665]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'HorizontalBox_1.HorizontalBoxSlot_7''
+[2016.08.23-23.13.24:468][590]BlueprintLog: New page: Compile W_ServerList
+[2016.08.23-23.13.24:612][590]BlueprintEditorCompileResults: Info [7718.16] Compile of W_ServerList successful! [in 144 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList)
+[2016.08.23-23.13.25:367][621]LogSavePackage: Save=42.31ms
+[2016.08.23-23.13.25:367][621]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_ServerList6791B831402434DC2B96B6B627315715.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.uasset'
+[2016.08.23-23.13.25:370][621]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.uasset
+[2016.08.23-23.13.46:893][331]BlueprintLog: New page: Compile W_ServerList
+[2016.08.23-23.13.47:029][331]BlueprintEditorCompileResults: Info [7740.57] Compile of W_ServerList successful! [in 135 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList)
+[2016.08.23-23.13.48:122][381]LogSavePackage: Save=44.73ms
+[2016.08.23-23.13.48:122][381]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_ServerListA690737F4B149237E1E7BD889E7BEF3E.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.uasset'
+[2016.08.23-23.13.48:156][381]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.uasset
+[2016.08.23-23.13.49:031][429]BlueprintLog: New page: Compile W_ServerList
+[2016.08.23-23.13.49:171][429]BlueprintEditorCompileResults: Info [7742.72] Compile of W_ServerList successful! [in 139 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList)
+[2016.08.23-23.13.50:012][466]LogSavePackage: Save=36.82ms
+[2016.08.23-23.13.50:012][466]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_ServerList4F8204F94FFED065092F25920E097521.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.uasset'
+[2016.08.23-23.13.50:016][466]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.uasset
+[2016.08.23-23.13.50:990][520]BlueprintLog: New page: Compile W_ServerList
+[2016.08.23-23.13.51:147][520]BlueprintEditorCompileResults: Info [7744.69] Compile of W_ServerList successful! [in 155 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList)
+[2016.08.23-23.14.16:230][648]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.054
+[2016.08.23-23.14.16:235][648]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList] ([1] browsable assets)...
+[2016.08.23-23.14.16:235][648]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList]
+[2016.08.23-23.14.16:275][648]LogSavePackage: Save=31.62ms
+[2016.08.23-23.14.16:275][648]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_ServerList_Auto5C5EF0DE24ACACDEB35EFE096557E7A3E.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList_Auto5.uasset'
+[2016.08.23-23.14.16:277][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList_Auto5.uasset
+[2016.08.23-23.14.16:277][648]LogFileHelpers: Auto-saving content packages took 0.044
+[2016.08.23-23.15.57:347][623]BlueprintLog: New page: Compile W_ServerList
+[2016.08.23-23.15.57:553][623]BlueprintEditorCompileResults: Info [7871.10] Compile of W_ServerList successful! [in 205 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList)
+[2016.08.23-23.15.58:647][656]LogSavePackage: Save=37.44ms
+[2016.08.23-23.15.58:647][656]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_ServerListD9D25FA34EA7AD1B7060EABC86CB0037.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.uasset'
+[2016.08.23-23.15.58:650][656]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.uasset
+[2016.08.23-23.19.10:087][751]BlueprintLog: New page: Compile W_ServerList
+[2016.08.23-23.19.10:260][751]BlueprintEditorCompileResults: Info [8063.80] Compile of W_ServerList successful! [in 172 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList)
+[2016.08.23-23.19.10:788][777]LogSavePackage: Save=25.67ms
+[2016.08.23-23.19.10:788][777]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_ServerList0D94A4884B082045D35790AF3D3DCD34.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.uasset'
+[2016.08.23-23.19.10:791][777]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.uasset
+[2016.08.23-23.20.38:483][591]BlueprintLog: New page: Compile W_ServerList
+[2016.08.23-23.20.38:647][591]BlueprintEditorCompileResults: Info [8152.19] Compile of W_ServerList successful! [in 164 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList)
+[2016.08.23-23.20.39:183][618]LogSavePackage: Save=20.27ms
+[2016.08.23-23.20.39:183][618]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_ServerListE6FFDE1E44B6AA3E6010AAB147E8B004.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.uasset'
+[2016.08.23-23.20.39:186][618]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.uasset
+[2016.08.23-23.24.16:701][655]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.060
+[2016.08.23-23.24.16:703][655]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList] ([1] browsable assets)...
+[2016.08.23-23.24.16:703][655]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList]
+[2016.08.23-23.24.16:791][655]LogSavePackage: Save=78.37ms
+[2016.08.23-23.24.16:791][655]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_ServerList_Auto6E174CCC74817B23BCACE47A03E982DE2.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList_Auto6.uasset'
+[2016.08.23-23.24.16:793][655]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList_Auto6.uasset
+[2016.08.23-23.24.16:793][655]LogFileHelpers: Auto-saving content packages took 0.090
+[2016.08.23-23.31.58:881][404]BlueprintLog: New page: Compile W_ServerList
+[2016.08.23-23.31.59:056][404]BlueprintEditorCompileResults: Info [8832.60] Compile of W_ServerList successful! [in 174 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList)
+[2016.08.23-23.34.17:597][611]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.060
+[2016.08.23-23.34.17:599][611]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList] ([1] browsable assets)...
+[2016.08.23-23.34.17:599][611]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList]
+[2016.08.23-23.34.17:674][611]LogSavePackage: Save=66.84ms
+[2016.08.23-23.34.17:674][611]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_ServerList_Auto705DC0A1942B6525636BEE7B9F5F9A9DE.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList_Auto7.uasset'
+[2016.08.23-23.34.17:676][611]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList_Auto7.uasset
+[2016.08.23-23.34.17:676][611]LogFileHelpers: Auto-saving content packages took 0.078
+[2016.08.23-23.36.39:535][466]BlueprintLog: New page: Compile W_ServerList
+[2016.08.23-23.36.39:766][466]BlueprintEditorCompileResults: Info [9113.31] Compile of W_ServerList successful! [in 230 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList)
+[2016.08.23-23.36.40:242][487]LogSavePackage: Save=75.01ms
+[2016.08.23-23.36.40:242][487]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_ServerList61B3981444BF48E3CC787BB9DC5A2C17.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.uasset'
+[2016.08.23-23.36.40:247][487]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.uasset
+[2016.08.23-23.37.03:947][316]LogSavePackage: Save=9.90ms
+[2016.08.23-23.37.03:947][316]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_ServerRowC6C4694E45F6DCD7FF8B109FC8F0715B.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow.uasset'
+[2016.08.23-23.37.03:951][316]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow.uasset
+[2016.08.23-23.39.18:738][944]BlueprintLog: New page: Compile W_ServerRow
+[2016.08.23-23.39.18:925][944]BlueprintEditorCompileResults: Info [9272.47] Compile of W_ServerRow successful! [in 186 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow.W_ServerRow)
+[2016.08.23-23.39.23:881][236]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.TRASHCLASS_W_MainMenu_63:CanvasPanel_2 or CanvasPanel /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow.W_ServerRow:WidgetTree.CanvasPanel_2
+[2016.08.23-23.39.23:881][236]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.TRASHCLASS_W_MainMenu_63:CanvasPanel_2 or CanvasPanel /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow.W_ServerRow_C:WidgetTree.CanvasPanel_2
+[2016.08.23-23.39.23:881][236]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.TRASHCLASS_W_MainMenu_63:CanvasPanel_2 or CanvasPanel /Engine/Transient.World_11:REINST_W_ServerRow_C_0.WidgetTree_5.CanvasPanel_2
+[2016.08.23-23.39.23:881][236]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.TRASHCLASS_W_MainMenu_63:CanvasPanel_2 or CanvasPanel /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow.W_ServerRow_C:WidgetTree_6.CanvasPanel_2
+[2016.08.23-23.39.23:881][236]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.TRASHCLASS_W_MainMenu_63:CanvasPanel_2 or CanvasPanel /Engine/Transient.World_11:W_ServerRow_C_0.WidgetTree_6.CanvasPanel_2
+[2016.08.23-23.39.23:881][236]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.TRASHCLASS_W_MainMenu_63:CanvasPanel_2 or CanvasPanel /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow.W_ServerRow_C:WidgetTree_7.CanvasPanel_2
+[2016.08.23-23.39.23:881][236]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.TRASHCLASS_W_MainMenu_63:CanvasPanel_2 or CanvasPanel /Engine/Transient.World_11:W_ServerRow_C_1.WidgetTree_7.CanvasPanel_2
+[2016.08.23-23.39.23:882][236]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_11:W_ServerRow_C_1.WidgetTree_7.CanvasPanel_2.CanvasPanelSlot_0 or CanvasPanelSlot /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow.W_ServerRow_C:WidgetTree_7.CanvasPanel_2.CanvasPanelSlot_0
+[2016.08.23-23.39.23:882][236]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_11:W_ServerRow_C_1.WidgetTree_7.CanvasPanel_2.CanvasPanelSlot_0 or CanvasPanelSlot /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow.W_ServerRow:WidgetTree.CanvasPanel_2.CanvasPanelSlot_0
+[2016.08.23-23.39.23:882][236]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Engine/Transient.World_11:W_ServerRow_C_1.WidgetTree_7.CanvasPanel_2.CanvasPanelSlot_0) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_0).  Import failed...
+[2016.08.23-23.39.23:882][236]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_2.CanvasPanelSlot_0''
+[2016.08.23-23.39.24:855][292]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.TRASHCLASS_W_MainMenu_63:CanvasPanel_2 or CanvasPanel /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow.W_ServerRow:WidgetTree.CanvasPanel_2
+[2016.08.23-23.39.24:855][292]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.TRASHCLASS_W_MainMenu_63:CanvasPanel_2 or CanvasPanel /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow.W_ServerRow_C:WidgetTree.CanvasPanel_2
+[2016.08.23-23.39.24:855][292]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.TRASHCLASS_W_MainMenu_63:CanvasPanel_2 or CanvasPanel /Engine/Transient.World_11:REINST_W_ServerRow_C_0.WidgetTree_5.CanvasPanel_2
+[2016.08.23-23.39.24:855][292]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.TRASHCLASS_W_MainMenu_63:CanvasPanel_2 or CanvasPanel /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow.W_ServerRow_C:WidgetTree_6.CanvasPanel_2
+[2016.08.23-23.39.24:855][292]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.TRASHCLASS_W_MainMenu_63:CanvasPanel_2 or CanvasPanel /Engine/Transient.World_11:W_ServerRow_C_0.WidgetTree_6.CanvasPanel_2
+[2016.08.23-23.39.24:855][292]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.TRASHCLASS_W_MainMenu_63:CanvasPanel_2 or CanvasPanel /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow.W_ServerRow_C:WidgetTree_7.CanvasPanel_2
+[2016.08.23-23.39.24:855][292]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.TRASHCLASS_W_MainMenu_63:CanvasPanel_2 or CanvasPanel /Engine/Transient.World_11:W_ServerRow_C_1.WidgetTree_7.CanvasPanel_2
+[2016.08.23-23.39.24:855][292]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.TRASHCLASS_W_MainMenu_63:CanvasPanel_2 or CanvasPanel /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow.W_ServerRow_C:WidgetTree_8.CanvasPanel_2
+[2016.08.23-23.39.24:855][292]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.TRASHCLASS_W_MainMenu_63:CanvasPanel_2 or CanvasPanel /Engine/Transient.World_11:W_ServerRow_C_6.WidgetTree_8.CanvasPanel_2
+[2016.08.23-23.39.24:855][292]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_11:W_ServerRow_C_6.WidgetTree_8.CanvasPanel_2.CanvasPanelSlot_0 or CanvasPanelSlot /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow.W_ServerRow_C:WidgetTree_8.CanvasPanel_2.CanvasPanelSlot_0
+[2016.08.23-23.39.24:855][292]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_11:W_ServerRow_C_6.WidgetTree_8.CanvasPanel_2.CanvasPanelSlot_0 or CanvasPanelSlot /Engine/Transient.World_11:W_ServerRow_C_1.WidgetTree_7.CanvasPanel_2.CanvasPanelSlot_0
+[2016.08.23-23.39.24:855][292]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_11:W_ServerRow_C_6.WidgetTree_8.CanvasPanel_2.CanvasPanelSlot_0 or CanvasPanelSlot /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow.W_ServerRow_C:WidgetTree_7.CanvasPanel_2.CanvasPanelSlot_0
+[2016.08.23-23.39.24:855][292]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_11:W_ServerRow_C_6.WidgetTree_8.CanvasPanel_2.CanvasPanelSlot_0 or CanvasPanelSlot /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow.W_ServerRow:WidgetTree.CanvasPanel_2.CanvasPanelSlot_0
+[2016.08.23-23.39.24:856][292]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Engine/Transient.World_11:W_ServerRow_C_6.WidgetTree_8.CanvasPanel_2.CanvasPanelSlot_0) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_0).  Import failed...
+[2016.08.23-23.39.24:856][292]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_2.CanvasPanelSlot_0''
+[2016.08.23-23.42.31:473][464]LogEditorTransaction: Undo Edit Left
+[2016.08.23-23.45.05:600][240]BlueprintLog: New page: Compile W_ServerRow
+[2016.08.23-23.45.05:816][240]BlueprintEditorCompileResults: Info [9619.36] Compile of W_ServerRow successful! [in 216 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow.W_ServerRow)
+[2016.08.23-23.45.06:311][265]LogSavePackage: Save=21.05ms
+[2016.08.23-23.45.06:311][265]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_ServerRow9FA2AB844656E87CA5B4EAAD85B3407D.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow.uasset'
+[2016.08.23-23.45.06:315][265]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow.uasset
+[2016.08.23-23.45.43:690][692]BlueprintLog: New page: Compile W_ServerRow
+[2016.08.23-23.45.43:861][692]BlueprintEditorCompileResults: Info [9657.40] Compile of W_ServerRow successful! [in 170 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow.W_ServerRow)
+[2016.08.23-23.45.44:206][708]LogSavePackage: Save=24.53ms
+[2016.08.23-23.45.44:206][708]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_ServerRowE3929B6340F876A03E7D33A6EA9865C6.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow.uasset'
+[2016.08.23-23.45.44:211][708]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow.uasset
+[2016.08.23-23.47.19:883][842]LogClass:Warning: Type mismatch in PlayerCount of SKEL_W_ServerRow_C - Previous (StructProperty) Current(StrProperty) for package:  FObjectReader
+[2016.08.23-23.47.31:328][162]BlueprintLog: New page: Compile W_ServerRow
+[2016.08.23-23.47.31:527][162]BlueprintEditorCompileResults: Info [9765.07] Compile of W_ServerRow successful! [in 198 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow.W_ServerRow)
+[2016.08.23-23.47.31:890][179]LogSavePackage: Save=28.26ms
+[2016.08.23-23.47.31:890][179]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_ServerRow8A1DA63E47E4F6721F6D29BC5C91897E.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow.uasset'
+[2016.08.23-23.47.31:894][179]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow.uasset
+[2016.08.23-23.48.45:706][780]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.065
+[2016.08.23-23.48.45:707][780]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow] ([1] browsable assets)...
+[2016.08.23-23.48.45:707][780]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow]
+[2016.08.23-23.48.45:736][780]LogSavePackage: Save=25.09ms
+[2016.08.23-23.48.45:736][780]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_ServerRow_Auto81C7C2B7B46FA9EDE79B4A9B9C90D365D.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow_Auto8.uasset'
+[2016.08.23-23.48.45:737][780]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow_Auto8.uasset
+[2016.08.23-23.48.45:737][780]LogFileHelpers: Auto-saving content packages took 0.031
+[2016.08.23-23.48.47:625][891]BlueprintLog: New page: Compile W_ServerRow
+[2016.08.23-23.48.47:831][891]BlueprintEditorCompileResults: Info [9841.38] Compile of W_ServerRow successful! [in 205 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow.W_ServerRow)
+[2016.08.23-23.48.48:306][915]LogSavePackage: Save=24.28ms
+[2016.08.23-23.48.48:306][915]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_ServerRowD9C00D4C447C9DE059AC5782CB118080.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow.uasset'
+[2016.08.23-23.48.48:337][915]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow.uasset
+[2016.08.23-23.50.04:386][961]BlueprintLog: New page: Compile GI_MP_Steam
+[2016.08.23-23.50.04:735][961]BlueprintEditorCompileResults: Info [9918.28] Compile of GI_MP_Steam successful! [in 348 ms] (/Game/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.GI_MP_Steam)
+[2016.08.23-23.50.05:162][978]LogSavePackage: Save=71.08ms
+[2016.08.23-23.50.05:162][978]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/GI_MP_Steam755C3FFE424D2560947CBC864218C11B.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.uasset'
+[2016.08.23-23.50.05:165][978]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Blueprints/GI_MP_Steam.uasset
+[2016.08.23-23.50.24:371][703]BlueprintLog: New page: Compile W_ServerRow
+[2016.08.23-23.50.24:549][703]BlueprintEditorCompileResults: Info [9938.09] Compile of W_ServerRow successful! [in 177 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow.W_ServerRow)
+[2016.08.23-23.50.24:902][719]LogSavePackage: Save=30.99ms
+[2016.08.23-23.50.24:902][719]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_ServerRow9DBE6F81485A1E2F485533979E788D21.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow.uasset'
+[2016.08.23-23.50.24:907][719]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow.uasset
+[2016.08.23-23.53.00:038][217]BlueprintLog: New page: Compile W_ServerList
+[2016.08.23-23.53.00:249][217]BlueprintEditorCompileResults: Info [0093.79] Compile of W_ServerList successful! [in 210 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList)
+[2016.08.23-23.53.00:972][239]LogSavePackage: Save=41.40ms
+[2016.08.23-23.53.00:972][239]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_ServerListAF68C4DA4D8580D62F57488A65379FB8.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.uasset'
+[2016.08.23-23.53.00:976][239]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.uasset
+[2016.08.24-00.00.40:043][439]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.086
+[2016.08.24-00.00.40:046][439]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList] ([1] browsable assets)...
+[2016.08.24-00.00.40:047][439]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList]
+[2016.08.24-00.00.40:124][439]LogSavePackage: Save=69.95ms
+[2016.08.24-00.00.40:124][439]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_ServerList_Auto956C0F9C74E20FD1F3592A0B75B667376.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList_Auto9.uasset'
+[2016.08.24-00.00.40:128][439]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList_Auto9.uasset
+[2016.08.24-00.00.40:128][439]LogFileHelpers: Auto-saving content packages took 0.083
+[2016.08.24-00.01.02:608][290]BlueprintLog: New page: Compile W_ServerList
+[2016.08.24-00.01.02:825][290]BlueprintEditorCompileResults: Info [0576.37] Compile of W_ServerList successful! [in 216 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList)
+[2016.08.24-00.01.03:231][308]LogSavePackage: Save=58.03ms
+[2016.08.24-00.01.03:231][308]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_ServerListF3F860E94DC53590E8C111B0D623DAA9.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.uasset'
+[2016.08.24-00.01.03:235][308]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.uasset
+[2016.08.24-00.02.41:149][972]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.08.24-00.08.23:676][615]BlueprintLog: New page: Compile W_ServerRow
+[2016.08.24-00.08.23:985][615]BlueprintEditorCompileResults: Info [1017.53] Compile of W_ServerRow successful! [in 309 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow.W_ServerRow)
+[2016.08.24-00.08.24:616][647]LogSavePackage: Save=38.76ms
+[2016.08.24-00.08.24:617][647]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_ServerRow5F1BD161460CD30D90AFD89A67AECD87.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow.uasset'
+[2016.08.24-00.08.24:620][647]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerRow.uasset
+[2016.08.24-00.08.26:567][753]LogSavePackage: Save=107.86ms
+[2016.08.24-00.08.26:568][753]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_ServerListA2FBE34842E921CEE1475EB00FE89FEE.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.uasset'
+[2016.08.24-00.08.26:571][753]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.uasset
+[2016.08.24-00.11.25:611][683]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.099
+[2016.08.24-00.11.25:613][683]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList] ([1] browsable assets)...
+[2016.08.24-00.11.25:613][683]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList]
+[2016.08.24-00.11.25:686][683]LogSavePackage: Save=68.37ms
+[2016.08.24-00.11.25:686][683]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_ServerList_Auto049A52BF5490A488EB4450591014864A5.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList_Auto0.uasset'
+[2016.08.24-00.11.25:689][683]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/Autosaves/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList_Auto0.uasset
+[2016.08.24-00.11.25:689][683]LogFileHelpers: Auto-saving content packages took 0.077
+[2016.08.24-00.13.28:395][292]BlueprintLog: New page: Compile W_ServerList
+[2016.08.24-00.13.28:637][292]BlueprintEditorCompileResults: Info [1322.18] Compile of W_ServerList successful! [in 241 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList)
+[2016.08.24-00.13.29:171][313]LogSavePackage: Save=120.91ms
+[2016.08.24-00.13.29:171][313]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_ServerListA591052C4A346B4421C7B698EE2A4050.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.uasset'
+[2016.08.24-00.13.29:176][313]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.uasset
+[2016.08.24-00.14.02:585][547]BlueprintLog: New page: Compile W_ServerList
+[2016.08.24-00.14.02:810][547]BlueprintEditorCompileResults: Info [1356.35] Compile of W_ServerList successful! [in 225 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList)
+[2016.08.24-00.14.03:255][565]LogSavePackage: Save=102.76ms
+[2016.08.24-00.14.03:256][565]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_ServerList92D30E3D4B7446D65071F993CD49E303.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.uasset'
+[2016.08.24-00.14.03:259][565]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.uasset
+[2016.08.24-00.14.27:117][114]BlueprintLog: New page: Compile W_ServerList
+[2016.08.24-00.14.27:358][114]BlueprintEditorCompileResults: Info [1380.90] Compile of W_ServerList successful! [in 240 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList)
+[2016.08.24-00.14.27:864][137]LogSavePackage: Save=69.85ms
+[2016.08.24-00.14.27:864][137]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_ServerListF181BD924CF8524591B337A1AB6D1D89.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.uasset'
+[2016.08.24-00.14.27:867][137]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.uasset
+[2016.08.24-00.14.50:673][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu:EventGraph.K2Node_DynamicCast_1 or K2Node_DynamicCast /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_DynamicCast_1
+[2016.08.24-00.14.50:674][622]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/ThirdPersonBP/Multiplayer/Widgets/W_MainMenu.W_MainMenu:EventGraph.K2Node_DynamicCast_1 or K2Node_DynamicCast /Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList:EventGraph.K2Node_DynamicCast_1
+[2016.08.24-00.14.50:674][622]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_1.EdGraphPin_257''
+[2016.08.24-00.15.06:215][251]BlueprintLog: New page: Compile W_ServerList
+[2016.08.24-00.15.06:432][251]BlueprintEditorCompileResults: Info [1419.98] Compile of W_ServerList successful! [in 215 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList)
+[2016.08.24-00.15.07:468][305]LogSavePackage: Save=90.71ms
+[2016.08.24-00.15.07:468][305]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_ServerList2B52F56F49BA4259F56035A1871F8110.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.uasset'
+[2016.08.24-00.15.07:472][305]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.uasset
+[2016.08.24-00.15.15:093][397]BlueprintLog: New page: Compile W_ServerList
+[2016.08.24-00.15.15:318][397]BlueprintEditorCompileResults: Info [1428.86] Compile of W_ServerList successful! [in 225 ms] (/Game/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.W_ServerList)
+[2016.08.24-00.15.15:878][423]LogSavePackage: Save=70.49ms
+[2016.08.24-00.15.15:878][423]LogSavePackage: Moving '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Saved/W_ServerListC3F71A334AC84B4360C437ADB5B45284.tmp' to '../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.uasset'
+[2016.08.24-00.15.15:880][423]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MatthewClaflin/Documents/Unreal Projects/MP_Steam/Content/ThirdPersonBP/Multiplayer/Widgets/W_ServerList.uasset
+[2016.08.24-00.16.35:864][960]Cmd: QUIT_EDITOR
+[2016.08.24-00.16.36:552][960]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.08.24-00.16.36:741][960]LogExit: Preparing to exit.
+[2016.08.24-00.16.39:734][960]LogExit: Editor shut down
+[2016.08.24-00.16.39:735][960]LogExit: Transaction tracking system shut down
+[2016.08.24-00.16.42:961][960]LogObj: Freed 0b from 0 cluster array pools.
+[2016.08.24-00.16.42:961][960]LogExit: Object subsystem successfully closed.
+[2016.08.24-00.16.43:340][960]LogD3D11RHI: Shutdown
+[2016.08.24-00.16.43:341][960]LogD3D11RHI: CleanupD3DDevice
+[2016.08.24-00.16.43:593][960]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.08.24-00.16.45:597][960]LogModuleManager: Shutting down and abandoning module SequencerWidgets (220)
+[2016.08.24-00.16.45:597][960]LogModuleManager: Shutting down and abandoning module BlueprintGraph (219)
+[2016.08.24-00.16.45:597][960]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (218)
+[2016.08.24-00.16.45:640][960]LogModuleManager: Shutting down and abandoning module CrashTracker (217)
+[2016.08.24-00.16.45:640][960]LogModuleManager: Shutting down and abandoning module SceneOutliner (216)
+[2016.08.24-00.16.45:655][960]LogModuleManager: Shutting down and abandoning module WidgetCarousel (215)
+[2016.08.24-00.16.45:678][960]LogModuleManager: Shutting down and abandoning module AddContentDialog (214)
+[2016.08.24-00.16.45:715][960]LogModuleManager: Shutting down and abandoning module GameplayTags (213)
+[2016.08.24-00.16.45:715][960]LogModuleManager: Shutting down and abandoning module EditorWidgets (212)
+[2016.08.24-00.16.45:715][960]LogModuleManager: Shutting down and abandoning module CollectionManager (211)
+[2016.08.24-00.16.45:734][960]LogModuleManager: Shutting down and abandoning module StatsViewer (210)
+[2016.08.24-00.16.45:756][960]LogModuleManager: Shutting down and abandoning module FoliageEdit (209)
+[2016.08.24-00.16.45:776][960]LogModuleManager: Shutting down and abandoning module LandscapeEditor (208)
+[2016.08.24-00.16.45:794][960]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (207)
+[2016.08.24-00.16.45:794][960]LogModuleManager: Shutting down and abandoning module ActorPickerMode (206)
+[2016.08.24-00.16.45:794][960]LogModuleManager: Shutting down and abandoning module GeometryMode (205)
+[2016.08.24-00.16.45:794][960]LogModuleManager: Shutting down and abandoning module TextureAlignMode (204)
+[2016.08.24-00.16.45:794][960]LogModuleManager: Shutting down and abandoning module BspMode (203)
+[2016.08.24-00.16.45:816][960]LogModuleManager: Shutting down and abandoning module HardwareSurvey (202)
+[2016.08.24-00.16.45:832][960]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (201)
+[2016.08.24-00.16.45:832][960]LogModuleManager: Shutting down and abandoning module SequenceRecorder (200)
+[2016.08.24-00.16.45:871][960]LogModuleManager: Shutting down and abandoning module AutomationWorker (199)
+[2016.08.24-00.16.45:871][960]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (198)
+[2016.08.24-00.16.45:887][960]LogModuleManager: Shutting down and abandoning module PlacementMode (197)
+[2016.08.24-00.16.45:910][960]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (196)
+[2016.08.24-00.16.45:973][960]LogModuleManager: Shutting down and abandoning module CharacterAI (195)
+[2016.08.24-00.16.45:973][960]LogModuleManager: Shutting down and abandoning module SmartSnapping (194)
+[2016.08.24-00.16.45:973][960]LogModuleManager: Shutting down and abandoning module SessionServices (193)
+[2016.08.24-00.16.45:973][960]LogModuleManager: Shutting down and abandoning module ViewportSnapping (192)
+[2016.08.24-00.16.45:973][960]LogModuleManager: Shutting down and abandoning module LogVisualizer (191)
+[2016.08.24-00.16.46:002][960]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (190)
+[2016.08.24-00.16.46:029][960]LogModuleManager: Shutting down and abandoning module IntroTutorials (189)
+[2016.08.24-00.16.46:050][960]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (188)
+[2016.08.24-00.16.46:050][960]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (187)
+[2016.08.24-00.16.46:063][960]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (186)
+[2016.08.24-00.16.46:063][960]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (185)
+[2016.08.24-00.16.46:881][960]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (184)
+[2016.08.24-00.16.46:897][960]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (183)
+[2016.08.24-00.16.46:897][960]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (182)
+[2016.08.24-00.16.46:897][960]LogModuleManager: Shutting down and abandoning module MergeActors (181)
+[2016.08.24-00.16.46:908][960]LogModuleManager: Shutting down and abandoning module SizeMap (180)
+[2016.08.24-00.16.46:908][960]LogModuleManager: Shutting down and abandoning module TreeMap (179)
+[2016.08.24-00.16.46:924][960]LogModuleManager: Shutting down and abandoning module ReferenceViewer (178)
+[2016.08.24-00.16.46:940][960]LogModuleManager: Shutting down and abandoning module LocalizationService (177)
+[2016.08.24-00.16.46:950][960]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (176)
+[2016.08.24-00.16.46:973][960]LogModuleManager: Shutting down and abandoning module HardwareTargeting (175)
+[2016.08.24-00.16.46:989][960]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (174)
+[2016.08.24-00.16.47:000][960]LogModuleManager: Shutting down and abandoning module UndoHistory (173)
+[2016.08.24-00.16.47:011][960]LogModuleManager: Shutting down and abandoning module UserFeedback (172)
+[2016.08.24-00.16.47:012][960]LogModuleManager: Shutting down and abandoning module XmlParser (171)
+[2016.08.24-00.16.47:031][960]LogModuleManager: Shutting down and abandoning module Blutility (170)
+[2016.08.24-00.16.47:050][960]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (169)
+[2016.08.24-00.16.47:066][960]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (168)
+[2016.08.24-00.16.47:066][960]LogModuleManager: Shutting down and abandoning module InputBindingEditor (167)
+[2016.08.24-00.16.47:098][960]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (166)
+[2016.08.24-00.16.47:098][960]LogModuleManager: Shutting down and abandoning module SettingsEditor (165)
+[2016.08.24-00.16.47:108][960]LogModuleManager: Shutting down and abandoning module ProjectLauncher (164)
+[2016.08.24-00.16.47:137][960]LogModuleManager: Shutting down and abandoning module SessionFrontend (163)
+[2016.08.24-00.16.47:158][960]LogModuleManager: Shutting down and abandoning module ProfilerClient (162)
+[2016.08.24-00.16.47:175][960]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (161)
+[2016.08.24-00.16.47:175][960]LogModuleManager: Shutting down and abandoning module DeviceManager (160)
+[2016.08.24-00.16.47:252][960]LogModuleManager: Shutting down and abandoning module AutomationController (159)
+[2016.08.24-00.16.47:269][960]LogModuleManager: Shutting down and abandoning module AutomationWindow (158)
+[2016.08.24-00.16.47:316][960]LogModuleManager: Shutting down and abandoning module Layers (157)
+[2016.08.24-00.16.47:349][960]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (156)
+[2016.08.24-00.16.47:349][960]LogModuleManager: Shutting down and abandoning module DetailCustomizations (155)
+[2016.08.24-00.16.47:373][960]LogModuleManager: Shutting down and abandoning module PackagesDialog (154)
+[2016.08.24-00.16.47:373][960]LogModuleManager: Shutting down and abandoning module Persona (153)
+[2016.08.24-00.16.47:428][960]LogModuleManager: Shutting down and abandoning module Kismet (152)
+[2016.08.24-00.16.47:476][960]LogModuleManager: Shutting down and abandoning module GraphEditor (151)
+[2016.08.24-00.16.47:477][960]LogModuleManager: Shutting down and abandoning module ClassViewer (150)
+[2016.08.24-00.16.47:483][960]LogModuleManager: Shutting down and abandoning module Toolbox (149)
+[2016.08.24-00.16.47:502][960]LogModuleManager: Shutting down and abandoning module ModuleUI (148)
+[2016.08.24-00.16.47:517][960]LogModuleManager: Shutting down and abandoning module MovieSceneTools (147)
+[2016.08.24-00.16.47:535][960]LogModuleManager: Shutting down and abandoning module OutputLog (146)
+[2016.08.24-00.16.47:560][960]LogModuleManager: Shutting down and abandoning module GammaUI (145)
+[2016.08.24-00.16.47:579][960]LogModuleManager: Shutting down and abandoning module Documentation (144)
+[2016.08.24-00.16.47:579][960]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (143)
+[2016.08.24-00.16.47:579][960]LogModuleManager: Shutting down and abandoning module AnalyticsET (142)
+[2016.08.24-00.16.47:579][960]LogModuleManager: Shutting down and abandoning module Analytics (141)
+[2016.08.24-00.16.47:579][960]LogModuleManager: Shutting down and abandoning module PortalServices (140)
+[2016.08.24-00.16.47:579][960]LogModuleManager: Shutting down and abandoning module PortalRpc (139)
+[2016.08.24-00.16.47:579][960]LogModuleManager: Shutting down and abandoning module MessagingRpc (138)
+[2016.08.24-00.16.47:579][960]LogModuleManager: Shutting down and abandoning module GameplayDebugger (137)
+[2016.08.24-00.16.47:596][960]LogModuleManager: Shutting down and abandoning module AITestSuite (136)
+[2016.08.24-00.16.47:613][960]LogModuleManager: Shutting down and abandoning module AIModule (135)
+[2016.08.24-00.16.47:613][960]LogModuleManager: Shutting down and abandoning module ProfilerService (134)
+[2016.08.24-00.16.47:664][960]LogModuleManager: Shutting down and abandoning module TaskGraph (133)
+[2016.08.24-00.16.47:706][960]LogModuleManager: Shutting down and abandoning module SlateRemote (132)
+[2016.08.24-00.16.47:706][960]LogModuleManager: Shutting down and abandoning module SteamVRController (131)
+[2016.08.24-00.16.47:706][960]LogModuleManager: Shutting down and abandoning module SteamVR (130)
+[2016.08.24-00.16.47:706][960]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (129)
+[2016.08.24-00.16.47:706][960]LogModuleManager: Shutting down and abandoning module OculusLibrary (128)
+[2016.08.24-00.16.47:706][960]LogModuleManager: Shutting down and abandoning module OculusInput (127)
+[2016.08.24-00.16.47:706][960]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (126)
+[2016.08.24-00.16.47:706][960]LogModuleManager: Shutting down and abandoning module CableComponent (125)
+[2016.08.24-00.16.47:706][960]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (124)
+[2016.08.24-00.16.47:706][960]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (123)
+[2016.08.24-00.16.47:749][960]LogModuleManager: Shutting down and abandoning module LowEntryExtendedStandardLibraryEditor (122)
+[2016.08.24-00.16.47:749][960]LogModuleManager: Shutting down and abandoning module HTML5Networking (121)
+[2016.08.24-00.16.47:749][960]LogModuleManager: Shutting down and abandoning module SuperSearch (120)
+[2016.08.24-00.16.47:749][960]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (119)
+[2016.08.24-00.16.47:750][960]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (118)
+[2016.08.24-00.16.47:750][960]LogModuleManager: Shutting down and abandoning module PluginBrowser (117)
+[2016.08.24-00.16.47:770][960]LogModuleManager: Shutting down and abandoning module EpicSurvey (116)
+[2016.08.24-00.16.47:770][960]LogModuleManager: Shutting down and abandoning module DesktopPlatform (115)
+[2016.08.24-00.16.47:790][960]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (114)
+[2016.08.24-00.16.47:798][960]LogModuleManager: Shutting down and abandoning module UObjectPlugin (113)
+[2016.08.24-00.16.47:798][960]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (112)
+[2016.08.24-00.16.47:810][960]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (111)
+[2016.08.24-00.16.47:833][960]LogModuleManager: Shutting down and abandoning module SourceControl (110)
+[2016.08.24-00.16.47:857][960]LogModuleManager: Shutting down and abandoning module GitSourceControl (109)
+[2016.08.24-00.16.47:868][960]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (108)
+[2016.08.24-00.16.47:868][960]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (107)
+[2016.08.24-00.16.47:882][960]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (106)
+[2016.08.24-00.16.47:882][960]LogModuleManager: Shutting down and abandoning module MeshPaint (105)
+[2016.08.24-00.16.47:906][960]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (104)
+[2016.08.24-00.16.47:933][960]LogModuleManager: Shutting down and abandoning module HotReload (103)
+[2016.08.24-00.16.47:969][960]LogModuleManager: Shutting down and abandoning module MainFrame (102)
+[2016.08.24-00.16.47:981][960]LogModuleManager: Shutting down and abandoning module LevelEditor (101)
+[2016.08.24-00.16.48:040][960]LogModuleManager: Shutting down and abandoning module ContentBrowser (100)
+[2016.08.24-00.16.48:043][960]LogModuleManager: Shutting down and abandoning module Paper2DEditor (99)
+[2016.08.24-00.16.48:064][960]LogModuleManager: Shutting down and abandoning module UdpMessaging (98)
+[2016.08.24-00.16.48:165][960]LogModuleManager: Shutting down and abandoning module LowEntryExtendedStandardLibrary (97)
+[2016.08.24-00.16.48:184][960]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (96)
+[2016.08.24-00.16.48:184][960]LogModuleManager: Shutting down and abandoning module Paper2D (95)
+[2016.08.24-00.16.48:228][960]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (94)
+[2016.08.24-00.16.48:229][960]LogModuleManager: Shutting down and abandoning module Media (93)
+[2016.08.24-00.16.48:229][960]LogModuleManager: Shutting down and abandoning module WmfMedia (92)
+[2016.08.24-00.16.48:243][960]LogModuleManager: Shutting down and abandoning module MediaAssets (91)
+[2016.08.24-00.16.48:243][960]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (90)
+[2016.08.24-00.16.48:257][960]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (89)
+[2016.08.24-00.16.48:257][960]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (88)
+[2016.08.24-00.16.48:257][960]LogModuleManager: Shutting down and abandoning module VREditor (87)
+[2016.08.24-00.16.48:273][960]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (86)
+[2016.08.24-00.16.48:273][960]LogModuleManager: Shutting down and abandoning module PropertyEditor (85)
+[2016.08.24-00.16.48:289][960]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (84)
+[2016.08.24-00.16.48:317][960]LogModuleManager: Shutting down and abandoning module FunctionalTesting (83)
+[2016.08.24-00.16.48:317][960]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (82)
+[2016.08.24-00.16.48:344][960]LogModuleManager: Shutting down and abandoning module Sequencer (81)
+[2016.08.24-00.16.48:345][960]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (80)
+[2016.08.24-00.16.48:345][960]LogModuleManager: Shutting down and abandoning module MessageLog (79)
+[2016.08.24-00.16.48:345][960]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2016.08.24-00.16.48:383][960]LogModuleManager: Shutting down and abandoning module UMGEditor (77)
+[2016.08.24-00.16.48:383][960]LogModuleManager: Shutting down and abandoning module UMG (76)
+[2016.08.24-00.16.48:383][960]LogModuleManager: Shutting down and abandoning module SlateReflector (75)
+[2016.08.24-00.16.48:414][960]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2016.08.24-00.16.48:414][960]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
+[2016.08.24-00.16.48:443][960]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (72)
+[2016.08.24-00.16.48:443][960]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (71)
+[2016.08.24-00.16.48:443][960]LogModuleManager: Shutting down and abandoning module XAudio2 (70)
+[2016.08.24-00.16.48:443][960]LogModuleManager: Shutting down and abandoning module Networking (69)
+[2016.08.24-00.16.48:443][960]LogModuleManager: Shutting down and abandoning module Core (68)
+[2016.08.24-00.16.48:443][960]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (67)
+[2016.08.24-00.16.48:449][960]LogModuleManager: Shutting down and abandoning module AssetRegistry (66)
+[2016.08.24-00.16.48:710][960]LogModuleManager: Shutting down and abandoning module KismetCompiler (65)
+[2016.08.24-00.16.48:710][960]LogModuleManager: Shutting down and abandoning module PhysXFormats (64)
+[2016.08.24-00.16.48:721][960]LogModuleManager: Shutting down and abandoning module MeshUtilities (63)
+[2016.08.24-00.16.48:743][960]LogModuleManager: Shutting down and abandoning module DerivedDataCache (62)
+[2016.08.24-00.16.48:813][960]LogDerivedDataCache: Shutdown
+[2016.08.24-00.16.48:813][960]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (61)
+[2016.08.24-00.16.48:865][960]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (60)
+[2016.08.24-00.16.48:968][960]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (59)
+[2016.08.24-00.16.49:032][960]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (58)
+[2016.08.24-00.16.49:056][960]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (57)
+[2016.08.24-00.16.49:056][960]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (56)
+[2016.08.24-00.16.49:072][960]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (55)
+[2016.08.24-00.16.49:099][960]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (54)
+[2016.08.24-00.16.49:127][960]LogModuleManager: Shutting down and abandoning module ImageWrapper (53)
+[2016.08.24-00.16.49:127][960]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (52)
+[2016.08.24-00.16.49:127][960]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (51)
+[2016.08.24-00.16.49:127][960]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (50)
+[2016.08.24-00.16.49:194][960]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (49)
+[2016.08.24-00.16.49:203][960]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (48)
+[2016.08.24-00.16.49:243][960]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (47)
+[2016.08.24-00.16.49:244][960]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (46)
+[2016.08.24-00.16.49:264][960]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (45)
+[2016.08.24-00.16.49:320][960]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (44)
+[2016.08.24-00.16.49:320][960]LogModuleManager: Shutting down and abandoning module Messaging (43)
+[2016.08.24-00.16.49:320][960]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (42)
+[2016.08.24-00.16.49:320][960]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (41)
+[2016.08.24-00.16.49:320][960]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (40)
+[2016.08.24-00.16.49:320][960]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (39)
+[2016.08.24-00.16.49:334][960]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (38)
+[2016.08.24-00.16.49:335][960]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (37)
+[2016.08.24-00.16.49:335][960]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (36)
+[2016.08.24-00.16.49:335][960]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (35)
+[2016.08.24-00.16.49:335][960]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (34)
+[2016.08.24-00.16.49:335][960]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (33)
+[2016.08.24-00.16.49:335][960]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (32)
+[2016.08.24-00.16.49:335][960]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (31)
+[2016.08.24-00.16.49:383][960]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (30)
+[2016.08.24-00.16.49:387][960]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (29)
+[2016.08.24-00.16.49:396][960]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (28)
+[2016.08.24-00.16.49:396][960]LogModuleManager: Shutting down and abandoning module TargetPlatform (27)
+[2016.08.24-00.16.49:458][960]LogModuleManager: Shutting down and abandoning module InputCore (26)
+[2016.08.24-00.16.49:458][960]LogModuleManager: Shutting down and abandoning module Settings (25)
+[2016.08.24-00.16.49:495][960]LogModuleManager: Shutting down and abandoning module Voice (23)
+[2016.08.24-00.16.49:509][960]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.08.24-00.16.49:523][960]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.08.24-00.16.49:544][960]LogOnline:Display: Unloading online subsystem: STEAM
+[2016.08.24-00.16.49:571][960]LogOnline:Display: Unloading online subsystem: NULL
+[2016.08.24-00.16.49:571][960]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.08.24-00.16.52:580][960]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.08.24-00.16.52:629][960]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.08.24-00.16.52:649][960]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.08.24-00.16.52:649][960]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.08.24-00.16.52:672][960]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.08.24-00.16.52:672][960]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.08.24-00.16.52:672][960]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.08.24-00.16.52:769][960]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.08.24-00.16.52:778][960]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.08.24-00.16.52:778][960]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.08.24-00.16.52:778][960]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.08.24-00.16.52:778][960]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.08.24-00.16.52:778][960]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.08.24-00.16.52:778][960]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.08.24-00.16.52:799][960]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.08.24-00.16.52:807][960]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.08.24-00.16.52:818][960]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.08.24-00.16.52:901][960]LogExit: Exiting.
+[2016.08.24-00.16.52:919][960]Log file closed, 08/23/16 17:16:52
